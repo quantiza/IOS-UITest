@@ -8,6 +8,7 @@
 
 #import "FitTabbarController.h"
 #import "FitNavigationController.h"
+#import "UTOneViewController.h"
 
 
 @implementation FitTabbarController
@@ -25,8 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-//    [self createUI];
+    [self createUI];
 }
 
 - (void)createUI
@@ -37,6 +37,27 @@
    
     //设置工具栏中文字的偏移量
     [[UITabBarItem appearance]setTitlePositionAdjustment:UIOffsetMake(0, -3)];
+    
+    //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    //1.创建一个VC，设置VC的title
+    //2.创建一个Nav，设置其rootViewController
+    //3.设置NavTabBarItem
+    //4.最后把Nav加进TabbbarController的ViewControllers里
+    //基本逻辑是：window.rootVC=tabbar => tabbar.VCs=[navVC1,navVC2...] => navVC.rootVC=VC
+    //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    UTOneViewController *oneVC = [[UTOneViewController alloc] init];
+    oneVC.title = @"TAB ONE";
+    FitNavigationController *oneNav = [[FitNavigationController alloc] initWithRootViewController:oneVC];
+    UITabBarItem *itemOne = [[UITabBarItem alloc] initWithTitle:@"One" image:nil selectedImage:nil];
+    [oneNav setTabBarItem:itemOne];
+    
+    UTOneViewController *twoVC = [[UTOneViewController alloc] init];
+    twoVC.title = @"TAB TWO";
+    FitNavigationController *twoNav = [[FitNavigationController alloc] initWithRootViewController:twoVC];
+    UITabBarItem *itemTwo = [[UITabBarItem alloc] initWithTitle:@"Two" image:nil selectedImage:nil];
+    [twoNav setTabBarItem:itemTwo];
+    
+    [self setViewControllers:@[oneNav, twoNav] animated:YES];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
@@ -45,3 +66,17 @@
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+

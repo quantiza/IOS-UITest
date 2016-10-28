@@ -16,6 +16,9 @@
 		A79727D71DC3486C00058B6D /* FitConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727CA1DC3486C00058B6D /* FitConsts.m */; };
 		A79727D81DC3486C00058B6D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79727CB1DC3486C00058B6D /* Info.plist */; };
 		A79727D91DC3486C00058B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727CC1DC3486C00058B6D /* main.m */; };
+		A79727DE1DC34DE000058B6D /* UTTouchEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727DD1DC34DE000058B6D /* UTTouchEventViewController.m */; };
+		A79727E41DC34F6E00058B6D /* UTTouchEventImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727E31DC34F6E00058B6D /* UTTouchEventImageView.m */; };
+		A79727EA1DC381B600058B6D /* UTOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727E91DC381B600058B6D /* UTOneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,12 @@
 		A79727CA1DC3486C00058B6D /* FitConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitConsts.m; sourceTree = "<group>"; };
 		A79727CB1DC3486C00058B6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79727CC1DC3486C00058B6D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A79727DC1DC34DE000058B6D /* UTTouchEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTTouchEventViewController.h; sourceTree = "<group>"; };
+		A79727DD1DC34DE000058B6D /* UTTouchEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTTouchEventViewController.m; sourceTree = "<group>"; };
+		A79727E21DC34F6E00058B6D /* UTTouchEventImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTTouchEventImageView.h; sourceTree = "<group>"; };
+		A79727E31DC34F6E00058B6D /* UTTouchEventImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTTouchEventImageView.m; sourceTree = "<group>"; };
+		A79727E81DC381B600058B6D /* UTOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTOneViewController.h; sourceTree = "<group>"; };
+		A79727E91DC381B600058B6D /* UTOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,7 @@
 		A79727C21DC3486C00058B6D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A79727DB1DC34D9300058B6D /* IOSEvent */,
 				A79727C31DC3486C00058B6D /* Base */,
 			);
 			path = Controller;
@@ -118,8 +128,21 @@
 		A79727CE1DC3486C00058B6D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A79727E21DC34F6E00058B6D /* UTTouchEventImageView.h */,
+				A79727E31DC34F6E00058B6D /* UTTouchEventImageView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A79727DB1DC34D9300058B6D /* IOSEvent */ = {
+			isa = PBXGroup;
+			children = (
+				A79727E81DC381B600058B6D /* UTOneViewController.h */,
+				A79727E91DC381B600058B6D /* UTOneViewController.m */,
+				A79727DC1DC34DE000058B6D /* UTTouchEventViewController.h */,
+				A79727DD1DC34DE000058B6D /* UTTouchEventViewController.m */,
+			);
+			path = IOSEvent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,11 +218,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79727DE1DC34DE000058B6D /* UTTouchEventViewController.m in Sources */,
 				A79727D91DC3486C00058B6D /* main.m in Sources */,
+				A79727EA1DC381B600058B6D /* UTOneViewController.m in Sources */,
 				A79727D11DC3486C00058B6D /* AppDelegate.m in Sources */,
 				A79727D61DC3486C00058B6D /* FitTabbarController.m in Sources */,
 				A79727D51DC3486C00058B6D /* FitNavigationController.m in Sources */,
 				A79727D71DC3486C00058B6D /* FitConsts.m in Sources */,
+				A79727E41DC34F6E00058B6D /* UTTouchEventImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

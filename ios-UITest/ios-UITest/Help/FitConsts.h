@@ -94,6 +94,8 @@
 #define TABBAR_COLOR                [UIColor colorWithRed:51.0/255  green:51.0/255 blue:51.0/255    alpha:1]
 #define BTN_ORANGE_COLOR            [UIColor colorWithRed:0.980     green:0.675     blue:0.286      alpha:1]
 
+#define WHITE_COLOR                 [UIColor whiteColor]
+#define CLEAR_COLOR                 [UIColor clearColor]
 #define ORANGE_COLOR                [UIColor colorWithRed:1.000 green:0.596 blue:0.000 alpha:1]
 #define BLUE_COLOR                  [UIColor colorWithRed:0.000 green:0.424 blue:0.980 alpha:1]
 #define YELLOW_COLOR                [UIColor colorWithRed:1.000 green:0.753 blue:0.208 alpha:1]
@@ -117,7 +119,7 @@
 #define COLOR_BGVIEW_GREEN          [UIColor colorWithRed:72 / 255.0 green:206 / 255.0 blue:164 / 255.0 alpha:1]
 #define COLOR_CASELBL_BORDER        [UIColor colorWithRed:174 / 255.0 green:174 / 255.0 blue:174 / 255.0 alpha:1]
 
-#define RED_CLOOR                    [UIColor colorWithRed:240.0/255.0 green:103.0/255.0 blue:82.0/255.0 alpha:1.0]
+#define RED_COLOR                    [UIColor colorWithRed:240.0/255.0 green:103.0/255.0 blue:82.0/255.0 alpha:1.0]
 
 
 #define COLOR_CNPC_GRAY             [UIColor colorWithRed:57.0/255.0 green:58.0/255.0 blue:63.0/255.0 alpha:1.0]
