@@ -27,7 +27,7 @@
 - (void)createUI {
     self.view.backgroundColor = BG_GRAY_COLOR;
     self.title = @"Touch Event";
-    image = [[UTTouchEventImageView alloc] initWithFrame:CGRectMake(kScreenWidth/2, kScreenHeight/2, 100, 100)];
+    image = [[UTTouchEventImageView alloc] initWithFrame:CGRectMake(10, 10, kScreenWidth-20, 100)];
     [[self view] addSubview:image];
 }
 
@@ -41,9 +41,9 @@
     UITouch *touch = [touches anyObject];
     CGPoint current = [touch locationInView:self.view];
     CGPoint previous = [touch previousLocationInView:self.view];
-    CGPoint center = image.center;
+    CGPoint center = image.imgView.center;
     CGPoint offset = CGPointMake(current.x-previous.x, current.y-previous.y);
-    image.center = CGPointMake(center.x+offset.x, center.y+offset.y);
+    image.imgView.center = CGPointMake(center.x+offset.x, center.y+offset.y);
     NSLog(@"UIViewController moving...");
     [self showInfo:@"UIViewController moving..."];
 }
@@ -53,6 +53,7 @@
     [self showInfo:@"UIViewController touch end..."];
 }
 
+//touch induce info
 - (void)showInfo:(NSString *)info {
     image.uiViewTouch.backgroundColor = WHITE_COLOR;
     image.uiViewTouch.text = @"Waiting for touching...";

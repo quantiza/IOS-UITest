@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A78EA0011DC3B0FB00DEB6E3 /* UTGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78EA0001DC3B0FB00DEB6E3 /* UTGestureViewController.m */; };
+		A78EA0041DC3BD0200DEB6E3 /* UTGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = A78EA0031DC3BD0200DEB6E3 /* UTGestureView.m */; };
 		A79727D11DC3486C00058B6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727BC1DC3486C00058B6D /* AppDelegate.m */; };
 		A79727D21DC3486C00058B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79727BD1DC3486C00058B6D /* Assets.xcassets */; };
 		A79727D31DC3486C00058B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79727BE1DC3486C00058B6D /* LaunchScreen.storyboard */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A78E9FFF1DC3B0FB00DEB6E3 /* UTGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTGestureViewController.h; sourceTree = "<group>"; };
+		A78EA0001DC3B0FB00DEB6E3 /* UTGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTGestureViewController.m; sourceTree = "<group>"; };
+		A78EA0021DC3BD0200DEB6E3 /* UTGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTGestureView.h; sourceTree = "<group>"; };
+		A78EA0031DC3BD0200DEB6E3 /* UTGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTGestureView.m; sourceTree = "<group>"; };
 		A79727681DC33A5100058B6D /* ios-UITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-UITest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79727BB1DC3486C00058B6D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A79727BC1DC3486C00058B6D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +136,8 @@
 			children = (
 				A79727E21DC34F6E00058B6D /* UTTouchEventImageView.h */,
 				A79727E31DC34F6E00058B6D /* UTTouchEventImageView.m */,
+				A78EA0021DC3BD0200DEB6E3 /* UTGestureView.h */,
+				A78EA0031DC3BD0200DEB6E3 /* UTGestureView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,6 +149,8 @@
 				A79727E91DC381B600058B6D /* UTOneViewController.m */,
 				A79727DC1DC34DE000058B6D /* UTTouchEventViewController.h */,
 				A79727DD1DC34DE000058B6D /* UTTouchEventViewController.m */,
+				A78E9FFF1DC3B0FB00DEB6E3 /* UTGestureViewController.h */,
+				A78EA0001DC3B0FB00DEB6E3 /* UTGestureViewController.m */,
 			);
 			path = IOSEvent;
 			sourceTree = "<group>";
@@ -218,12 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78EA0011DC3B0FB00DEB6E3 /* UTGestureViewController.m in Sources */,
 				A79727DE1DC34DE000058B6D /* UTTouchEventViewController.m in Sources */,
 				A79727D91DC3486C00058B6D /* main.m in Sources */,
 				A79727EA1DC381B600058B6D /* UTOneViewController.m in Sources */,
 				A79727D11DC3486C00058B6D /* AppDelegate.m in Sources */,
 				A79727D61DC3486C00058B6D /* FitTabbarController.m in Sources */,
 				A79727D51DC3486C00058B6D /* FitNavigationController.m in Sources */,
+				A78EA0041DC3BD0200DEB6E3 /* UTGestureView.m in Sources */,
 				A79727D71DC3486C00058B6D /* FitConsts.m in Sources */,
 				A79727E41DC34F6E00058B6D /* UTTouchEventImageView.m in Sources */,
 			);
@@ -382,6 +394,7 @@
 				A79727811DC33A5100058B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

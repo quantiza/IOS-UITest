@@ -14,10 +14,47 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        UIImage *img = [UIImage imageNamed:@"andy"];
-        [self setBackgroundColor:[UIColor colorWithPatternImage:img]];
+        [self createUI];
+        
     }
     return self;
+}
+
+- (void)createUI {
+    self.backgroundColor = RED_COLOR;
+    //touch的图片
+    UIImage *img = [UIImage imageNamed:@"andy"];
+    _imgView = [[UIImageView alloc] initWithImage:img];
+    [self addSubview:_imgView];
+    //touch视图显示信息的label
+    _uiViewTouch = [[UILabel alloc] initWithFrame:CGRectMake(0, 120, kScreenWidth-100, 30)];
+    _uiViewTouch.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:_uiViewTouch];
+    //touch视图控制器显示信息的label
+    _uiCtrlTouch = [[UILabel alloc] initWithFrame:CGRectMake(0, 160, kScreenWidth-100, 30)];
+    _uiCtrlTouch.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:_uiCtrlTouch];
+    //控制视图能否touch的按钮
+    _interactionBtn = [[UIButton alloc] initWithFrame:CGRectMake(kScreenWidth/4, 10, kScreenWidth/2, 30)];
+    _interactionBtn.backgroundColor = COLOR_GRAY_LIGHT;
+    [_interactionBtn addTarget:self action:@selector(setInterEnabled) forControlEvents:UIControlEventTouchUpInside];
+    [_interactionBtn setTitle:@"InteractionEnabled=YES" forState:UIControlStateNormal];
+    _interactionBtn.tag = 1;
+    [self addSubview:_interactionBtn];
+}
+
+- (void)setInterEnabled {
+    NSLog(@"aaaa");
+    if (_interactionBtn.tag==0) {
+        self.userInteractionEnabled = NO;
+        [_interactionBtn setTitle:@"InteractionEnabled=NO" forState:UIControlStateNormal];
+        _interactionBtn.tag = 1;
+    }
+    else {
+        self.userInteractionEnabled = YES;
+        [_interactionBtn setTitle:@"InteractionEnabled=YES" forState:UIControlStateNormal];
+        _interactionBtn.tag = 0;
+    }
 }
 
 #pragma mark - UIView Touch Event 视图触摸事件
@@ -38,18 +75,12 @@
     [self showInfo:@"UIView touches ended..."];
 }
 
+// touch induce info
 - (void)showInfo:(NSString *)info {
-    _uiViewTouch = [[UILabel alloc] initWithFrame:CGRectMake(0, 120, kScreenWidth-100, 30)];
     [_uiViewTouch setBackgroundColor:ORANGE_COLOR];
-    _uiViewTouch.textAlignment = NSTextAlignmentCenter;
     _uiViewTouch.text = info;
-    [self addSubview:_uiViewTouch];
-    
-    _uiCtrlTouch = [[UILabel alloc] initWithFrame:CGRectMake(0, 160, kScreenWidth-100, 30)];
-    _uiCtrlTouch.textAlignment = NSTextAlignmentCenter;
     [_uiCtrlTouch setBackgroundColor:WHITE_COLOR];
     _uiCtrlTouch.text = @"Waiting for touching...";
-    [self addSubview:_uiCtrlTouch];
 }
 
 @end

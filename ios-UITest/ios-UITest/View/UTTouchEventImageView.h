@@ -12,5 +12,7 @@
 
 @property(nonatomic,strong) UILabel *uiViewTouch;
 @property(nonatomic,strong) UILabel *uiCtrlTouch;
+@property(nonatomic,strong) UIImageView *imgView;
+@property(nonatomic,strong) UIButton *interactionBtn;
 
 @end

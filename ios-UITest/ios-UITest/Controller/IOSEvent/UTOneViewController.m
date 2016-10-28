@@ -9,9 +9,11 @@
 #import "UTOneViewController.h"
 #import "FitConsts.h"
 #import "UTTouchEventViewController.h"
+#import "UTGestureViewController.h"
 
 @interface UTOneViewController () <UITableViewDelegate, UITableViewDataSource>{
     UITableView *table;
+    NSArray *cellTitle;
 }
 
 @end
@@ -29,14 +31,18 @@
     table.delegate = self;
     table.dataSource = self;
     [self.view addSubview:table];
+    NSString *one = @"Touch Event";
+    NSString *two = @"Gesture Recognizer";
+    NSString *t = @"Test";
+    cellTitle = @[one,two,t,t,t,t,t,t,t,t];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 4;
+    return 10;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
@@ -53,7 +59,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
-    cell.textLabel.text = @"hello";
+    cell.textLabel.text = [cellTitle objectAtIndex:indexPath.row];
     return cell;
 }
 
@@ -62,6 +68,10 @@
     if (indexPath.section==0 && indexPath.row==0) {
         UTTouchEventViewController *touchVC = [[UTTouchEventViewController alloc] init];
         [self.navigationController pushViewController:touchVC animated:YES];
+    }
+    if (indexPath.section==0 && indexPath.row==1) {
+        UTGestureViewController *gestureVC = [[UTGestureViewController alloc] init];
+        [self.navigationController pushViewController:gestureVC animated:YES];
     }
 }
 
