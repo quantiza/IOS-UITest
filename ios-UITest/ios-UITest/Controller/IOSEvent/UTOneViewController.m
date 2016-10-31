@@ -10,6 +10,8 @@
 #import "FitConsts.h"
 #import "UTTouchEventViewController.h"
 #import "UTGestureViewController.h"
+#import "UTBasicGraphicsViewController.h"
+#import "UTTableViewController.h"
 
 @interface UTOneViewController () <UITableViewDelegate, UITableViewDataSource>{
     UITableView *table;
@@ -33,8 +35,10 @@
     [self.view addSubview:table];
     NSString *one = @"Touch Event";
     NSString *two = @"Gesture Recognizer";
+    NSString *three = @"Basic Graphics";
+    NSString *four = @"TableView";
     NSString *t = @"Test";
-    cellTitle = @[one,two,t,t,t,t,t,t,t,t];
+    cellTitle = @[one,two,three,four,t,t,t,t,t,t];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -72,6 +76,14 @@
     if (indexPath.section==0 && indexPath.row==1) {
         UTGestureViewController *gestureVC = [[UTGestureViewController alloc] init];
         [self.navigationController pushViewController:gestureVC animated:YES];
+    }
+    if (indexPath.section==0 && indexPath.row==2) {
+        UTBasicGraphicsViewController *basicGraphVC = [[UTBasicGraphicsViewController alloc] init];
+        [self.navigationController pushViewController:basicGraphVC animated:YES];
+    }
+    if (indexPath.section==0 && indexPath.row==3) {
+        UTTableViewController *tableVC = [[UTTableViewController alloc] init];
+        [self.navigationController pushViewController:tableVC animated:YES];
     }
 }
 
