@@ -12,6 +12,7 @@
 #import "UTGestureViewController.h"
 #import "UTBasicGraphicsViewController.h"
 #import "UTTableViewController.h"
+#import "UTAAViewController.h"
 
 @interface UTOneViewController () <UITableViewDelegate, UITableViewDataSource>{
     UITableView *table;
@@ -37,8 +38,9 @@
     NSString *two = @"Gesture Recognizer";
     NSString *three = @"Basic Graphics";
     NSString *four = @"TableView";
+    NSString *five = @"Pass Value";
     NSString *t = @"Test";
-    cellTitle = @[one,two,three,four,t,t,t,t,t,t];
+    cellTitle = @[one, two, three, four, five,t,t,t,t,t];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -84,6 +86,10 @@
     if (indexPath.section==0 && indexPath.row==3) {
         UTTableViewController *tableVC = [[UTTableViewController alloc] init];
         [self.navigationController pushViewController:tableVC animated:YES];
+    }
+    if (indexPath.section==0 && indexPath.row==4) {
+        UTAAViewController *aaVC = [[UTAAViewController alloc] init];
+        [self.navigationController pushViewController:aaVC animated:YES];
     }
 }
 
