@@ -9,6 +9,7 @@
 #import "FitTabbarController.h"
 #import "FitNavigationController.h"
 #import "UTOneViewController.h"
+#import "UTTwoViewController.h"
 
 
 @implementation FitTabbarController
@@ -48,13 +49,13 @@
     UTOneViewController *oneVC = [[UTOneViewController alloc] init];
     oneVC.title = @"TAB ONE";
     FitNavigationController *oneNav = [[FitNavigationController alloc] initWithRootViewController:oneVC];
-    UITabBarItem *itemOne = [[UITabBarItem alloc] initWithTitle:@"One" image:nil selectedImage:nil];
+    UITabBarItem *itemOne = [[UITabBarItem alloc] initWithTitle:@"First" image:nil selectedImage:nil];
     [oneNav setTabBarItem:itemOne];
     
-    UTOneViewController *twoVC = [[UTOneViewController alloc] init];
+    UTTwoViewController *twoVC = [[UTTwoViewController alloc] init];
     twoVC.title = @"TAB TWO";
     FitNavigationController *twoNav = [[FitNavigationController alloc] initWithRootViewController:twoVC];
-    UITabBarItem *itemTwo = [[UITabBarItem alloc] initWithTitle:@"Two" image:nil selectedImage:nil];
+    UITabBarItem *itemTwo = [[UITabBarItem alloc] initWithTitle:@"Second" image:nil selectedImage:nil];
     [twoNav setTabBarItem:itemTwo];
     
     [self setViewControllers:@[oneNav, twoNav] animated:YES];
