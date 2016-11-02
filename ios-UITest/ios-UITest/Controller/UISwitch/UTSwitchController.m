@@ -17,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initLayout];
     // Do any additional setup after loading the view.
+}
+
+- (void)initLayout {
+    self.view.backgroundColor = WHITE_COLOR;
+    self.title = @"UISwitch Test";
 }
 
 

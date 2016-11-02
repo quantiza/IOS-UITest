@@ -13,6 +13,7 @@
 #import "UTPageController.h"
 #import "UTSegmentedController.h"
 #import "UTSliderController.h"
+#import "UTSwitchController.h"
 
 @interface UTTwoViewController() <UITableViewDelegate, UITableViewDataSource> {
     UITableView *table;
@@ -40,8 +41,13 @@
     NSString *three = @"UIPageControl Test";
     NSString *four = @"UISegmentedControl Test";
     NSString *five = @"UISlider Test";
-    NSString *t = @"Test";
-    cellTitle = @[one, two, three, four, five,t,t,t,t,t];
+    NSString *six = @"UISwitch Test";
+    NSString *seven = @"";
+    NSString *eight = @"";
+    NSString *nine = @"";
+    NSString *ten = @"";
+   // NSString *t = @"Test";
+    cellTitle = @[one, two, three, four, five, six, seven, eight, nine, ten];
 }
 
 
