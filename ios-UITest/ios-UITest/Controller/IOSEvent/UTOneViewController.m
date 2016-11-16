@@ -13,6 +13,7 @@
 #import "UTBasicGraphicsViewController.h"
 #import "UTTableViewController.h"
 #import "UTAAViewController.h"
+#import "PNChartViewController.h"
 
 @interface UTOneViewController () <UITableViewDelegate, UITableViewDataSource>{
     UITableView *table;
@@ -39,8 +40,9 @@
     NSString *three = @"Basic Graphics";
     NSString *four = @"TableView";
     NSString *five = @"Pass Value";
-    NSString *t = @"Test";
-    cellTitle = @[one, two, three, four, five,t,t,t,t,t];
+    NSString *six = @"PNChart";
+    NSString *t = @"ddd";
+    cellTitle = @[one, two, three, four, five, six,t,t,t,t];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -90,6 +92,10 @@
     if (indexPath.section==0 && indexPath.row==4) {
         UTAAViewController *aaVC = [[UTAAViewController alloc] init];
         [self.navigationController pushViewController:aaVC animated:YES];
+    }
+    if (indexPath.section==0 && indexPath.row==5) {
+        PNChartViewController *PNChartVC = [[PNChartViewController alloc] init];
+        [self.navigationController pushViewController:PNChartVC animated:YES];
     }
 }
 

@@ -32,7 +32,7 @@
     btn.backgroundColor = BG_GRAY_COLOR;
     [btn setTitle:@"UIButtonTypeRoundedRect" forState:UIControlStateNormal];
     //[btn setTitle:@"ZoomIn" forState:UIControlStateHighlighted];
-    [btn addTarget:self action:@selector(zoomInAction:) forControlEvents:UIControlEventTouchUpInside];
+    //[btn addTarget:self action:@selector(zoomInAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
     UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -44,6 +44,13 @@
     [btn1 addTarget:self action:@selector(zoomInAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
     
+    UILabel *testLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 100, 50)];
+    testLabel.backgroundColor = RED_COLOR;
+    [self.view addSubview:testLabel];
+    [testLabel addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelClick:)]];
+}
+- (void)labelClick:(UITapGestureRecognizer *)tapGest {
+    tapGest.view.backgroundColor = BLACK_COLOR;
 }
 
 - (void)zoomInAction:(id)sender {
@@ -53,7 +60,7 @@
 
     //u.selected = !u.selected;
     //u.titleLabel.textColor = WHITE_COLOR;
-   // u.titleLabel.hidden = NO;
+    //u.titleLabel.hidden = NO;
 }
 
 

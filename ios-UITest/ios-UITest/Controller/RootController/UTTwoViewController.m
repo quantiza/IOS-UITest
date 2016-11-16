@@ -14,6 +14,8 @@
 #import "UTSegmentedController.h"
 #import "UTSliderController.h"
 #import "UTSwitchController.h"
+#import "UTTextFieldController.h"
+#import "UTOptionbarDesignController.h"
 
 @interface UTTwoViewController() <UITableViewDelegate, UITableViewDataSource> {
     UITableView *table;
@@ -42,8 +44,8 @@
     NSString *four = @"UISegmentedControl Test";
     NSString *five = @"UISlider Test";
     NSString *six = @"UISwitch Test";
-    NSString *seven = @"";
-    NSString *eight = @"";
+    NSString *seven = @"UITextField Test";
+    NSString *eight = @"UTOptionBar Design";
     NSString *nine = @"";
     NSString *ten = @"";
    // NSString *t = @"Test";
@@ -103,6 +105,22 @@
         UTSliderController *sliderCtrl = [[UTSliderController alloc] init];
         [self.navigationController pushViewController:sliderCtrl animated:YES];
     }
+    
+    if (indexPath.section==0 && indexPath.row==5) {
+        UTSwitchController *switchCtrl = [[UTSwitchController alloc] init];
+        [self.navigationController pushViewController:switchCtrl animated:YES];
+    }
+    
+    if (indexPath.section==0 && indexPath.row==6) {
+        UTTextFieldController *textFieldCtrl = [[UTTextFieldController alloc] init];
+        [self.navigationController pushViewController:textFieldCtrl animated:YES];
+    }
+    
+    if (indexPath.section==0 && indexPath.row==7) {
+        UTOptionbarDesignController *optionCtrl = [[UTOptionbarDesignController alloc] init];
+        [self.navigationController pushViewController:optionCtrl animated:YES];
+    }
+    
 }
 
 

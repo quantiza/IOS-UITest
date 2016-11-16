@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F6080431DD1D50D00B567D2 /* UTOptionbarDesignController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080421DD1D50D00B567D2 /* UTOptionbarDesignController.m */; };
+		9F60804A1DD1DA6E00B567D2 /* UTOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080491DD1DA6E00B567D2 /* UTOptionView.m */; };
+		9F6080531DD1EA4500B567D2 /* UTOptionContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */; };
+		9F9B626A1DD77D7A004E8A12 /* PNChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B62691DD77D7A004E8A12 /* PNChartViewController.m */; };
 		9FAF6E711DC97DBF00A206F5 /* UTPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF6E701DC97DBF00A206F5 /* UTPageController.m */; };
 		9FAF6E751DC9B1DA00A206F5 /* UTSegmentedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF6E741DC9B1DA00A206F5 /* UTSegmentedController.m */; };
 		9FAF6E791DC9BE6A00A206F5 /* UTSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF6E781DC9BE6A00A206F5 /* UTSliderController.m */; };
 		9FAF6E7D1DC9D89A00A206F5 /* UTSwitchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF6E7C1DC9D89A00A206F5 /* UTSwitchController.m */; };
+		9FAF6E811DC9E85500A206F5 /* UTTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF6E801DC9E85500A206F5 /* UTTextFieldController.m */; };
 		9FE1393B1DC8A0F1005908F9 /* UTButtonTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1393A1DC8A0F1005908F9 /* UTButtonTestController.m */; };
 		9FE139421DC8E65E005908F9 /* UTDatePickerTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE139411DC8E65E005908F9 /* UTDatePickerTestController.m */; };
 		A76B5EE31DC8280200A21BA6 /* UTAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B5EE21DC8280200A21BA6 /* UTAAViewController.m */; };
@@ -36,9 +41,20 @@
 		A79727D91DC3486C00058B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727CC1DC3486C00058B6D /* main.m */; };
 		A79727DE1DC34DE000058B6D /* UTTouchEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727DD1DC34DE000058B6D /* UTTouchEventViewController.m */; };
 		A79727EA1DC381B600058B6D /* UTOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79727E91DC381B600058B6D /* UTOneViewController.m */; };
+		F6F92235DFD8C1917898A95B /* libPods-ios-UITest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB2D3C706457175D59485CD /* libPods-ios-UITest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DB2D3C706457175D59485CD /* libPods-ios-UITest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-UITest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8273556AB065D292BED8FD96 /* Pods-ios-UITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-UITest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-UITest/Pods-ios-UITest.release.xcconfig"; sourceTree = "<group>"; };
+		9F6080411DD1D50D00B567D2 /* UTOptionbarDesignController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTOptionbarDesignController.h; sourceTree = "<group>"; };
+		9F6080421DD1D50D00B567D2 /* UTOptionbarDesignController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOptionbarDesignController.m; sourceTree = "<group>"; };
+		9F6080481DD1DA6E00B567D2 /* UTOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTOptionView.h; sourceTree = "<group>"; };
+		9F6080491DD1DA6E00B567D2 /* UTOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOptionView.m; sourceTree = "<group>"; };
+		9F6080511DD1EA4500B567D2 /* UTOptionContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTOptionContentScrollView.h; sourceTree = "<group>"; };
+		9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOptionContentScrollView.m; sourceTree = "<group>"; };
+		9F9B62681DD77D7A004E8A12 /* PNChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartViewController.h; sourceTree = "<group>"; };
+		9F9B62691DD77D7A004E8A12 /* PNChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartViewController.m; sourceTree = "<group>"; };
 		9FAF6E6F1DC97DBF00A206F5 /* UTPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPageController.h; sourceTree = "<group>"; };
 		9FAF6E701DC97DBF00A206F5 /* UTPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPageController.m; sourceTree = "<group>"; };
 		9FAF6E731DC9B1DA00A206F5 /* UTSegmentedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTSegmentedController.h; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		9FAF6E781DC9BE6A00A206F5 /* UTSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTSliderController.m; sourceTree = "<group>"; };
 		9FAF6E7B1DC9D89A00A206F5 /* UTSwitchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTSwitchController.h; sourceTree = "<group>"; };
 		9FAF6E7C1DC9D89A00A206F5 /* UTSwitchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTSwitchController.m; sourceTree = "<group>"; };
+		9FAF6E7F1DC9E85500A206F5 /* UTTextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTTextFieldController.h; sourceTree = "<group>"; };
+		9FAF6E801DC9E85500A206F5 /* UTTextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTTextFieldController.m; sourceTree = "<group>"; };
 		9FE139391DC8A0F1005908F9 /* UTButtonTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTButtonTestController.h; sourceTree = "<group>"; };
 		9FE1393A1DC8A0F1005908F9 /* UTButtonTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTButtonTestController.m; sourceTree = "<group>"; };
 		9FE139401DC8E65E005908F9 /* UTDatePickerTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDatePickerTestController.h; sourceTree = "<group>"; };
@@ -93,6 +111,7 @@
 		A79727DD1DC34DE000058B6D /* UTTouchEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTTouchEventViewController.m; sourceTree = "<group>"; };
 		A79727E81DC381B600058B6D /* UTOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UTOneViewController.h; path = ../IOSEvent/UTOneViewController.h; sourceTree = "<group>"; };
 		A79727E91DC381B600058B6D /* UTOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UTOneViewController.m; path = ../IOSEvent/UTOneViewController.m; sourceTree = "<group>"; };
+		FCE94D66BB43C7F696A72ACA /* Pods-ios-UITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-UITest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-UITest/Pods-ios-UITest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +119,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F92235DFD8C1917898A95B /* libPods-ios-UITest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9860A30761A99EA451537D17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCE94D66BB43C7F696A72ACA /* Pods-ios-UITest.debug.xcconfig */,
+				8273556AB065D292BED8FD96 /* Pods-ios-UITest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F6080401DD1D4DF00B567D2 /* UTOptionBar */ = {
+			isa = PBXGroup;
+			children = (
+				9F6080411DD1D50D00B567D2 /* UTOptionbarDesignController.h */,
+				9F6080421DD1D50D00B567D2 /* UTOptionbarDesignController.m */,
+			);
+			path = UTOptionBar;
+			sourceTree = "<group>";
+		};
+		9F6080471DD1D68100B567D2 /* UTOptionBarView */ = {
+			isa = PBXGroup;
+			children = (
+				9F6080481DD1DA6E00B567D2 /* UTOptionView.h */,
+				9F6080491DD1DA6E00B567D2 /* UTOptionView.m */,
+				9F6080511DD1EA4500B567D2 /* UTOptionContentScrollView.h */,
+				9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */,
+			);
+			path = UTOptionBarView;
+			sourceTree = "<group>";
+		};
+		9F9B62671DD77D2A004E8A12 /* PNChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9F9B62681DD77D7A004E8A12 /* PNChartViewController.h */,
+				9F9B62691DD77D7A004E8A12 /* PNChartViewController.m */,
+			);
+			path = PNChartDemo;
+			sourceTree = "<group>";
+		};
 		9FAF6E6E1DC97C5900A206F5 /* UIPageControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +198,15 @@
 				9FAF6E7C1DC9D89A00A206F5 /* UTSwitchController.m */,
 			);
 			path = UISwitch;
+			sourceTree = "<group>";
+		};
+		9FAF6E7E1DC9E83800A206F5 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				9FAF6E7F1DC9E85500A206F5 /* UTTextFieldController.h */,
+				9FAF6E801DC9E85500A206F5 /* UTTextFieldController.m */,
+			);
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 		9FE139381DC89E71005908F9 /* UIButtonTest */ = {
@@ -245,6 +312,8 @@
 			children = (
 				A79727BA1DC3486C00058B6D /* ios-UITest */,
 				A79727691DC33A5100058B6D /* Products */,
+				9860A30761A99EA451537D17 /* Pods */,
+				F7DF90F9D025B45E6F800D37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,6 +347,7 @@
 			isa = PBXGroup;
 			children = (
 				A78EA0141DC65B6300DEB6E3 /* RootController */,
+				9F6080401DD1D4DF00B567D2 /* UTOptionBar */,
 				A79727DB1DC34D9300058B6D /* IOSEvent */,
 				A78EA0151DC65C9600DEB6E3 /* IOSGraphics */,
 				A77266271DC722990026AA56 /* IOSTable */,
@@ -288,6 +358,8 @@
 				9FAF6E721DC9B16500A206F5 /* UISegmentedControl */,
 				9FAF6E761DC9BDC000A206F5 /* UISlider */,
 				9FAF6E7A1DC9D85900A206F5 /* UISwitch */,
+				9FAF6E7E1DC9E83800A206F5 /* UITextField */,
+				9F9B62671DD77D2A004E8A12 /* PNChartDemo */,
 				A79727C31DC3486C00058B6D /* Base */,
 			);
 			path = Controller;
@@ -323,6 +395,7 @@
 		A79727CE1DC3486C00058B6D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9F6080471DD1D68100B567D2 /* UTOptionBarView */,
 				A78EA00D1DC65B1300DEB6E3 /* IOSEventView */,
 				A78EA0161DC65CC300DEB6E3 /* IOSGraphicsView */,
 				A772662E1DC72E790026AA56 /* IOSTableView */,
@@ -342,6 +415,14 @@
 			path = IOSEvent;
 			sourceTree = "<group>";
 		};
+		F7DF90F9D025B45E6F800D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2D3C706457175D59485CD /* libPods-ios-UITest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,9 +430,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A797277F1DC33A5100058B6D /* Build configuration list for PBXNativeTarget "ios-UITest" */;
 			buildPhases = (
+				3706E180F871C406EE9CA702 /* [CP] Check Pods Manifest.lock */,
 				A79727641DC33A5100058B6D /* Sources */,
 				A79727651DC33A5100058B6D /* Frameworks */,
 				A79727661DC33A5100058B6D /* Resources */,
+				8C2BB2787D51F1D1C12EBDB4 /* [CP] Embed Pods Frameworks */,
+				037FD50113DA23D7FB8FC87D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -410,6 +494,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		037FD50113DA23D7FB8FC87D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-UITest/Pods-ios-UITest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3706E180F871C406EE9CA702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2BB2787D51F1D1C12EBDB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-UITest/Pods-ios-UITest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A79727641DC33A5100058B6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -421,9 +553,11 @@
 				A78EA0121DC65B1300DEB6E3 /* UTGestureView.m in Sources */,
 				A76B5EE31DC8280200A21BA6 /* UTAAViewController.m in Sources */,
 				9FAF6E711DC97DBF00A206F5 /* UTPageController.m in Sources */,
+				9F60804A1DD1DA6E00B567D2 /* UTOptionView.m in Sources */,
 				A78EA0191DC6664100DEB6E3 /* UTBasicGraphicsViewController.m in Sources */,
 				A79727D91DC3486C00058B6D /* main.m in Sources */,
 				A76B5EED1DC8317D00A21BA6 /* UTBBView.m in Sources */,
+				9F6080531DD1EA4500B567D2 /* UTOptionContentScrollView.m in Sources */,
 				9FE1393B1DC8A0F1005908F9 /* UTButtonTestController.m in Sources */,
 				A76B5EEA1DC82D8400A21BA6 /* UTAAView.m in Sources */,
 				A79727EA1DC381B600058B6D /* UTOneViewController.m in Sources */,
@@ -433,7 +567,10 @@
 				9FAF6E791DC9BE6A00A206F5 /* UTSliderController.m in Sources */,
 				A79727D11DC3486C00058B6D /* AppDelegate.m in Sources */,
 				A76B5EE61DC8281800A21BA6 /* UTBBViewController.m in Sources */,
+				9FAF6E811DC9E85500A206F5 /* UTTextFieldController.m in Sources */,
 				A79727D61DC3486C00058B6D /* FitTabbarController.m in Sources */,
+				9F6080431DD1D50D00B567D2 /* UTOptionbarDesignController.m in Sources */,
+				9F9B626A1DD77D7A004E8A12 /* PNChartViewController.m in Sources */,
 				A772662D1DC724B20026AA56 /* UTTableViewController.m in Sources */,
 				A79727D51DC3486C00058B6D /* FitNavigationController.m in Sources */,
 				A79727D71DC3486C00058B6D /* FitConsts.m in Sources */,
@@ -555,6 +692,7 @@
 		};
 		A79727801DC33A5100058B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE94D66BB43C7F696A72ACA /* Pods-ios-UITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2BPVM7PZ48;
@@ -567,6 +705,7 @@
 		};
 		A79727811DC33A5100058B6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8273556AB065D292BED8FD96 /* Pods-ios-UITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2BPVM7PZ48;

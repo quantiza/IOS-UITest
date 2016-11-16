@@ -55,7 +55,7 @@
 
 #define SETTINGS_SECTION_HEIGHT     15
 #define SETTINGS_CELL_HEIGHT        45
-
+#define kLineHeight (1 / [UIScreen mainScreen].scale)
 
 //------------------日期格式字符串--------------------
 
@@ -97,6 +97,7 @@
 #define TABBAR_COLOR                [UIColor colorWithRed:51.0/255  green:51.0/255 blue:51.0/255    alpha:1]
 #define BTN_ORANGE_COLOR            [UIColor colorWithRed:0.980     green:0.675     blue:0.286      alpha:1]
 
+#define PURPLE_COLOR                [UIColor purpleColor]
 #define GREEN_COLOR                 [UIColor greenColor]
 #define BLACK_COLOR                 [UIColor blackColor]
 #define RED_COLOR                   [UIColor redColor]

@@ -11,7 +11,10 @@
 
 @interface UTPageController ()<UIScrollViewDelegate> {
     UIPageControl *pageControl;
-
+    UIPageControl *pageControl1;
+    NSInteger nowPage;
+    NSInteger lastPage;
+    CALayer *_lineLayer;
 }
 
 @end
@@ -20,14 +23,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    nowPage = 0;
+    lastPage = 0;
     [self initLayout];
     //[self showScrollView];
     // Do any additional setup after loading the view.
 }
 
+
+#pragma mark 特别注意，uipageControl页数为2时，可以自动回转，0-1-0-1-0-1
 - (void)initLayout {
     self.title = @"Page Control";
     self.view.backgroundColor = WHITE_COLOR;
+    
+    pageControl1 = [[UIPageControl alloc] initWithFrame:CGRectMake(kScreenWidth - 100, 300, 100, 20)];
+    [pageControl1 setPageIndicatorTintColor:ORANGE_COLOR];
+    [pageControl1 setCurrentPageIndicatorTintColor:RED_COLOR];
+    [pageControl1 setNumberOfPages:2];          //必须要设置页数否则不出现内容
+    [self.view addSubview:pageControl1];
+    
+    
     
     pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(20, 20, kScreenWidth-40, 100)];
     [pageControl setBackgroundColor:BG_GRAY_COLOR];             //背景色
@@ -35,14 +50,38 @@
     [pageControl setCurrentPage:3];                             //指定当前页
     [pageControl setCurrentPageIndicatorTintColor:RED_COLOR];   //选中页点色,默认白色
     [pageControl setPageIndicatorTintColor:BLACK_COLOR];        //默认页点色
-    [pageControl addTarget:self action:@selector(pageChanged:) forControlEvents:UIControlEventValueChanged];
+    [pageControl addTarget:self action:@selector(pageChanged:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pageControl];
+    
+    
+    _lineLayer = [CALayer layer];
+    _lineLayer.frame = CGRectMake(0, 300, kScreenWidth, 5);
+    _lineLayer.backgroundColor = RED_COLOR.CGColor;
+    [self.view.layer addSublayer:_lineLayer];
+    
 }
 
+
+//当使用UIControlEventTouchUpInside事件时，点击一直可以触发
+//当使用UIControlEventValueChanged事件时，点击早page结尾或开头时就停止触发了
 - (void)pageChanged:(UIPageControl *)pageC {
-    NSLog(@"============pageControl============%@",pageC);
-    NSLog(@"============pageControl============%ld",(long)pageC.currentPage);
+    //通过判断前后页的值是否相同进行循环轮动
+    lastPage = nowPage;
+    nowPage = pageC.currentPage;
+    NSLog(@"=======lastPage=%ld, nowPage=%ld", (long)lastPage,(long)nowPage);
+    if (nowPage == pageControl.numberOfPages-1) {
+        if (lastPage == nowPage || lastPage == 0) {
+            pageControl.currentPage = 0;
+        }
+    }
+    
+    if (nowPage == 0) {
+        if (lastPage == nowPage || lastPage == pageControl.numberOfPages-1) {
+            pageControl.currentPage = pageControl.numberOfPages - 1;
+        }
+    }
 }
+
 
 - (void)showScrollView {
     self.title = @"Page Control";
