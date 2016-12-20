@@ -14,6 +14,10 @@
 #import "UTTableViewController.h"
 #import "UTAAViewController.h"
 #import "PNChartViewController.h"
+#import "PickImageViewController.h"
+#import "AssetPickerViewController.h"
+#import "JsonModelTestViewController.h"
+#import "GCDMainViewController.h"
 
 @interface UTOneViewController () <UITableViewDelegate, UITableViewDataSource>{
     UITableView *table;
@@ -41,8 +45,11 @@
     NSString *four = @"TableView";
     NSString *five = @"Pass Value";
     NSString *six = @"PNChart";
-    NSString *t = @"ddd";
-    cellTitle = @[one, two, three, four, five, six,t,t,t,t];
+    NSString *seven = @"Pick Image Demo";
+	NSString *eight = @"Pick Assets Demo";
+	NSString *nine = @"JsonModel Test";
+	NSString *ten = @"GCDTest";
+    cellTitle = @[one, two, three, four, five, six, seven, eight, nine, ten];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -97,6 +104,26 @@
         PNChartViewController *PNChartVC = [[PNChartViewController alloc] init];
         [self.navigationController pushViewController:PNChartVC animated:YES];
     }
+	if (indexPath.section==0 && indexPath.row==6) {
+		PickImageViewController *pickImageVC = [[PickImageViewController alloc] init];
+		[self.navigationController pushViewController:pickImageVC animated:YES];
+	}
+	
+	if (indexPath.section==0 && indexPath.row==7) {
+		AssetPickerViewController *assetPickVC = [[AssetPickerViewController alloc] init];
+		[self.navigationController pushViewController:assetPickVC animated:YES];
+	}
+	
+	if (indexPath.section==0 && indexPath.row==8) {
+		JsonModelTestViewController *jsonModelVC = [[JsonModelTestViewController alloc] init];
+		[self.navigationController pushViewController:jsonModelVC animated:YES];
+	}
+	
+	if (indexPath.section==0 && indexPath.row==9) {
+		GCDMainViewController *gcdMainVC = [[GCDMainViewController alloc] init];
+		gcdMainVC.navigationItem.title = @"GCDTest";
+		[self.navigationController pushViewController:gcdMainVC animated:YES];
+	}
 }
 
 

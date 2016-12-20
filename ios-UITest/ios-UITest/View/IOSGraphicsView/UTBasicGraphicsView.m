@@ -17,7 +17,7 @@
 //然后我们只要按照绘图步,骤一步步执行即可
 
 - (void)drawRect:(CGRect)rect {
- 
+
     CGContextRef context = UIGraphicsGetCurrentContext();
     [self drawLineWithContext:context];
     [self drawRectWithContext:context];
@@ -25,6 +25,7 @@
     [self drawCurve:context];
     [self drawArc:context];
     [self drawText:context];
+	[self drawWithUIKit];
 }
 
 
@@ -103,10 +104,22 @@
     UIFont *font = [UIFont systemFontOfSize:18];
     UIColor *color = [UIColor redColor];
     NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
-    NSTextAlignment align = NSTextAlignmentLeft;
-    style.alignment = align;
+    style.alignment = NSTextAlignmentLeft;
     [str drawInRect:rect withAttributes:@{NSFontAttributeName:font, NSForegroundColorAttributeName:color, NSParagraphStyleAttributeName:style}];
 }
 
+
+
+- (void)drawWithUIKit {
+	UIBezierPath *path = [UIBezierPath bezierPath];
+	[path moveToPoint:CGPointMake(200, 500)];
+	[path addLineToPoint:CGPointMake(250, 500)];
+	[path addLineToPoint:CGPointMake(250, 550)];
+	[path addLineToPoint:CGPointMake(200, 550)];
+	[path closePath];
+	path.lineWidth = 1;
+	[[UIColor redColor] setStroke];
+	[path stroke];
+}
 
 @end

@@ -39,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ZYQAssetPickerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -47,7 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>790925FF4940D72769D220833D8636E7</key>
+		<key>51BABD8FE72439AE8072EB6C0CB99F34</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,17 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>833F72E5FE63BC3761AC9744A0FC484A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9E9212830DF1456A26CD0721A86F0C91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D058B89EB3B3DF45457A2DCD3971AFFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5FEAA6480940BF7BB2BCFDF6AC19F2C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

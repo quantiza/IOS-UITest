@@ -7,4 +7,6 @@ pod 'SDWebImage'
 pod 'MBProgressHUD'
 pod 'JSONModel'
 pod 'PNChart'
+pod 'ZYQAssetPickerController',  '~> 1.0.0'
+pod 'UICountingLabel'
 end

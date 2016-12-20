@@ -22,6 +22,7 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - UICountingLabel (1.2.0)
+  - ZYQAssetPickerController (1.0.0)
 
 DEPENDENCIES:
   - AFNetworking
@@ -29,6 +30,8 @@ DEPENDENCIES:
   - MBProgressHUD
   - PNChart
   - SDWebImage
+  - UICountingLabel
+  - ZYQAssetPickerController (~> 1.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -37,7 +40,8 @@ SPEC CHECKSUMS:
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  ZYQAssetPickerController: e5cf51ee6c05fa06746830026c247cb9f6699e84
 
-PODFILE CHECKSUM: 9171ec81c68623613e1fc7aa3aba58bada9ffa4a
+PODFILE CHECKSUM: 92f4a0ea0b770ab716e1c86d9327863b0448779f
 
 COCOAPODS: 1.0.1

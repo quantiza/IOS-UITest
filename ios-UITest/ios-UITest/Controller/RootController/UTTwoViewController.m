@@ -16,6 +16,9 @@
 #import "UTSwitchController.h"
 #import "UTTextFieldController.h"
 #import "UTOptionbarDesignController.h"
+#import "CITestViewController.h"
+#import "AnimationViewController.h"
+#import "UTSearchController.h"
 
 @interface UTTwoViewController() <UITableViewDelegate, UITableViewDataSource> {
     UITableView *table;
@@ -46,10 +49,18 @@
     NSString *six = @"UISwitch Test";
     NSString *seven = @"UITextField Test";
     NSString *eight = @"UTOptionBar Design";
-    NSString *nine = @"";
-    NSString *ten = @"";
+    NSString *nine = @"CoreImage Test";
+    NSString *ten = @"Animation Test";
+	NSString *aa = @"UISearch Test";
+	NSString *bb = @"Test";
+	NSString *cc = @"Test";
+	NSString *dd = @"Test";
+	NSString *ee = @"Test";
+	NSString *ff = @"Test";
+	NSString *gg = @"Test";
+
    // NSString *t = @"Test";
-    cellTitle = @[one, two, three, four, five, six, seven, eight, nine, ten];
+    cellTitle = @[one, two, three, four, five, six, seven, eight, nine, ten, aa, bb,cc,dd,ee,ff,gg];
 }
 
 
@@ -58,7 +69,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return 17;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
@@ -120,7 +131,27 @@
         UTOptionbarDesignController *optionCtrl = [[UTOptionbarDesignController alloc] init];
         [self.navigationController pushViewController:optionCtrl animated:YES];
     }
-    
+	
+	if (indexPath.section==0 && indexPath.row==8) {
+		CITestViewController *CITestCtrl = [[CITestViewController alloc] init];
+		CITestCtrl.navigationItem.title = @"Core Image Test";
+		CITestCtrl.view.backgroundColor = WHITE_COLOR;
+		[self.navigationController pushViewController:CITestCtrl animated:YES];
+	}
+	
+	if (indexPath.section==0 && indexPath.row==9) {
+		AnimationViewController *animationVC = [[AnimationViewController alloc] init];
+		animationVC.navigationItem.title = @"Animation Test";
+		animationVC.view.backgroundColor = WHITE_COLOR;
+		[self.navigationController pushViewController:animationVC animated:YES];
+	}
+	
+	if (indexPath.section==0 && indexPath.row==10) {
+		UTSearchController *searchVC = [[UTSearchController alloc] init];
+		searchVC.navigationItem.title = @"SearchController Test";
+		searchVC.view.backgroundColor = WHITE_COLOR;
+		[self.navigationController pushViewController:searchVC animated:YES];
+	}
 }
 
 

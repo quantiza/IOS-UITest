@@ -17,6 +17,7 @@
 
 //程序启动完成时调用
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	
     //1.系统创建window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [[self window] setBackgroundColor:[UIColor whiteColor]];

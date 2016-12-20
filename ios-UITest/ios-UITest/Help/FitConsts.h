@@ -51,7 +51,7 @@
 #define kStatuBarHeight          20.0f
 #define kTabBarHeight            50.0f
 #define kTopBarHeight            64.0f
-#define kNormalHeight   kScreenHeight-kTopBarHeight-kTabBarHeight
+#define kNormalHeight			578.0f
 
 #define SETTINGS_SECTION_HEIGHT     15
 #define SETTINGS_CELL_HEIGHT        45
