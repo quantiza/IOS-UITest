@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ios-UITest/Controller/AnimationTest/AnimationViewController.m"
-            timestampString = "503565050.56906"
+            filePath = "ios-UITest/View/MultiLabelView.m"
+            timestampString = "512809099.339029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-initUI"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-clickLabel:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

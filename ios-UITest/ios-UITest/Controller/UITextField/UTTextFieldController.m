@@ -8,8 +8,9 @@
 
 #import "UTTextFieldController.h"
 #import "FitConsts.h"
+#import "MultiLabelView.h"
 
-@interface UTTextFieldController () <UITextFieldDelegate>
+@interface UTTextFieldController () <UITextFieldDelegate, MultilabelViewDelegate>
 
 @end
 
@@ -56,8 +57,18 @@
     textField1.returnKeyType = UIReturnKeyDone; //return键
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldTextDidChange) name:UITextFieldTextDidChangeNotification object:textField1];
-    
+	
     [self.view addSubview:textField1];
+	
+	MultiLabelView *view = [[MultiLabelView alloc] initWithFrame:CGRectMake(100, 10, kScreenWidth-20, 0) andArray:@[@"hello", @"aljfd",@"hello", @"aljfd",@"hello", @"aljfd",@"hello", @"aljfd",@"hello", @"aljfd"]];
+	view.delegate = self;
+	view.backgroundColor = BG_GRAY_COLOR;
+	[self.view addSubview:view];
+}
+
+- (void)multilabelClickWithIndex:(NSInteger)index
+{
+	NSLog(@"index:%lu", index);
 }
 
 

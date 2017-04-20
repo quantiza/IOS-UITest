@@ -33,6 +33,11 @@
 		9F6080431DD1D50D00B567D2 /* UTOptionbarDesignController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080421DD1D50D00B567D2 /* UTOptionbarDesignController.m */; };
 		9F60804A1DD1DA6E00B567D2 /* UTOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080491DD1DA6E00B567D2 /* UTOptionView.m */; };
 		9F6080531DD1EA4500B567D2 /* UTOptionContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */; };
+		9F72BF631E8FD31E001B6E60 /* MultiLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F72BF621E8FD31E001B6E60 /* MultiLabelView.m */; };
+		9F7DBA1F1E272AB600A938D8 /* music-wqs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DBA1E1E272AB600A938D8 /* music-wqs.mp3 */; };
+		9F7DBA2A1E277ECA00A938D8 /* AVAudioPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DBA291E277ECA00A938D8 /* AVAudioPlayerView.m */; };
+		9F7DBA2D1E277F0B00A938D8 /* FSAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DBA2C1E277F0B00A938D8 /* FSAudioView.m */; };
+		9F7DFEB61E263CAB00140046 /* UTAVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DFEB51E263CAB00140046 /* UTAVController.m */; };
 		9F80EDD61DEC0D69004272FF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F80EDD51DEC0D69004272FF /* libsqlite3.tbd */; };
 		9F80EDDA1DEC4751004272FF /* CITestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F80EDD91DEC4751004272FF /* CITestViewController.m */; };
 		9F8E27881DF6C6B400AE01F0 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E27871DF6C6B400AE01F0 /* AnimationViewController.m */; };
@@ -115,6 +120,15 @@
 		9F6080491DD1DA6E00B567D2 /* UTOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOptionView.m; sourceTree = "<group>"; };
 		9F6080511DD1EA4500B567D2 /* UTOptionContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTOptionContentScrollView.h; sourceTree = "<group>"; };
 		9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOptionContentScrollView.m; sourceTree = "<group>"; };
+		9F72BF611E8FD31E001B6E60 /* MultiLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLabelView.h; sourceTree = "<group>"; };
+		9F72BF621E8FD31E001B6E60 /* MultiLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLabelView.m; sourceTree = "<group>"; };
+		9F7DBA1E1E272AB600A938D8 /* music-wqs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "music-wqs.mp3"; sourceTree = "<group>"; };
+		9F7DBA281E277ECA00A938D8 /* AVAudioPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayerView.h; sourceTree = "<group>"; };
+		9F7DBA291E277ECA00A938D8 /* AVAudioPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerView.m; sourceTree = "<group>"; };
+		9F7DBA2B1E277F0B00A938D8 /* FSAudioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAudioView.h; sourceTree = "<group>"; };
+		9F7DBA2C1E277F0B00A938D8 /* FSAudioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAudioView.m; sourceTree = "<group>"; };
+		9F7DFEB41E263CAB00140046 /* UTAVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTAVController.h; sourceTree = "<group>"; };
+		9F7DFEB51E263CAB00140046 /* UTAVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTAVController.m; sourceTree = "<group>"; };
 		9F80EDD51DEC0D69004272FF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		9F80EDD81DEC4751004272FF /* CITestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITestViewController.h; sourceTree = "<group>"; };
 		9F80EDD91DEC4751004272FF /* CITestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITestViewController.m; sourceTree = "<group>"; };
@@ -300,6 +314,26 @@
 				9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */,
 			);
 			path = UTOptionBarView;
+			sourceTree = "<group>";
+		};
+		9F7DBA271E277ECA00A938D8 /* AVFoundationView */ = {
+			isa = PBXGroup;
+			children = (
+				9F7DBA281E277ECA00A938D8 /* AVAudioPlayerView.h */,
+				9F7DBA291E277ECA00A938D8 /* AVAudioPlayerView.m */,
+				9F7DBA2B1E277F0B00A938D8 /* FSAudioView.h */,
+				9F7DBA2C1E277F0B00A938D8 /* FSAudioView.m */,
+			);
+			path = AVFoundationView;
+			sourceTree = "<group>";
+		};
+		9F7DFEB01E263C3600140046 /* AVFoundationTest */ = {
+			isa = PBXGroup;
+			children = (
+				9F7DFEB41E263CAB00140046 /* UTAVController.h */,
+				9F7DFEB51E263CAB00140046 /* UTAVController.m */,
+			);
+			path = AVFoundationTest;
 			sourceTree = "<group>";
 		};
 		9F80EDD71DEC472A004272FF /* CoreImageTest */ = {
@@ -528,6 +562,7 @@
 				A79727CE1DC3486C00058B6D /* View */,
 				A79727CD1DC3486C00058B6D /* Model */,
 				A79727C81DC3486C00058B6D /* Help */,
+				9F7DBA1E1E272AB600A938D8 /* music-wqs.mp3 */,
 				A79727BB1DC3486C00058B6D /* AppDelegate.h */,
 				A79727BC1DC3486C00058B6D /* AppDelegate.m */,
 				A79727BD1DC3486C00058B6D /* Assets.xcassets */,
@@ -543,6 +578,7 @@
 			isa = PBXGroup;
 			children = (
 				A78EA0141DC65B6300DEB6E3 /* RootController */,
+				9F7DFEB01E263C3600140046 /* AVFoundationTest */,
 				9FCC6CA21E0938B400F9D457 /* UISearchControl */,
 				9F8E277F1DF6C34E00AE01F0 /* AnimationTest */,
 				9F9E5AA51DF49EC100FD7FE2 /* HeathTest */,
@@ -611,6 +647,9 @@
 				A772662E1DC72E790026AA56 /* IOSTableView */,
 				A76B5EE71DC82D6F00A21BA6 /* IOSPassValueView */,
 				9F2E297E1DDC4D9D00A90011 /* PickImageView */,
+				9F7DBA271E277ECA00A938D8 /* AVFoundationView */,
+				9F72BF611E8FD31E001B6E60 /* MultiLabelView.h */,
+				9F72BF621E8FD31E001B6E60 /* MultiLabelView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -705,6 +744,7 @@
 				9F15EFDB1DDDE857002A734F /* specialPropertyName.json in Resources */,
 				9F15EFD51DDDE857002A734F /* nestedDataWithDictionaryError.json in Resources */,
 				9F15EFCF1DDDE857002A734F /* colors.json in Resources */,
+				9F7DBA1F1E272AB600A938D8 /* music-wqs.mp3 in Resources */,
 				9F15EFDA1DDDE857002A734F /* primitivesWithErrors.json in Resources */,
 				9F15EFD41DDDE857002A734F /* nestedDataWithArrayError.json in Resources */,
 				A79727D41DC3486C00058B6D /* Main.storyboard in Resources */,
@@ -749,7 +789,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8C2BB2787D51F1D1C12EBDB4 /* [CP] Embed Pods Frameworks */ = {
@@ -774,6 +814,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F72BF631E8FD31E001B6E60 /* MultiLabelView.m in Sources */,
 				9F15EFA01DDD4275002A734F /* AssetPickerViewController.m in Sources */,
 				A78EA0011DC3B0FB00DEB6E3 /* UTGestureViewController.m in Sources */,
 				A79727DE1DC34DE000058B6D /* UTTouchEventViewController.m in Sources */,
@@ -783,6 +824,7 @@
 				9F15EFA31DDD5A95002A734F /* AssetPickTestViewController.m in Sources */,
 				9FAF6E711DC97DBF00A206F5 /* UTPageController.m in Sources */,
 				9F60804A1DD1DA6E00B567D2 /* UTOptionView.m in Sources */,
+				9F7DFEB61E263CAB00140046 /* UTAVController.m in Sources */,
 				A78EA0191DC6664100DEB6E3 /* UTBasicGraphicsViewController.m in Sources */,
 				A79727D91DC3486C00058B6D /* main.m in Sources */,
 				A76B5EED1DC8317D00A21BA6 /* UTBBView.m in Sources */,
@@ -803,6 +845,7 @@
 				9FAF6E791DC9BE6A00A206F5 /* UTSliderController.m in Sources */,
 				9F15EFBE1DDDC3A7002A734F /* JsonModelTestViewController.m in Sources */,
 				A79727D11DC3486C00058B6D /* AppDelegate.m in Sources */,
+				9F7DBA2D1E277F0B00A938D8 /* FSAudioView.m in Sources */,
 				A76B5EE61DC8281800A21BA6 /* UTBBViewController.m in Sources */,
 				9FCC6CA51E0938F600F9D457 /* UTSearchController.m in Sources */,
 				9FAF6E811DC9E85500A206F5 /* UTTextFieldController.m in Sources */,
@@ -819,6 +862,7 @@
 				A76B5EF01DC873C200A21BA6 /* UTTwoViewController.m in Sources */,
 				9FC3CBE81DED7400003ED1CE /* DBManager.m in Sources */,
 				9F8E27881DF6C6B400AE01F0 /* AnimationViewController.m in Sources */,
+				9F7DBA2A1E277ECA00A938D8 /* AVAudioPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

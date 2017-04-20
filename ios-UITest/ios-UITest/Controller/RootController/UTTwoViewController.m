@@ -19,6 +19,7 @@
 #import "CITestViewController.h"
 #import "AnimationViewController.h"
 #import "UTSearchController.h"
+#import "UTAVController.h"
 
 @interface UTTwoViewController() <UITableViewDelegate, UITableViewDataSource> {
     UITableView *table;
@@ -52,7 +53,7 @@
     NSString *nine = @"CoreImage Test";
     NSString *ten = @"Animation Test";
 	NSString *aa = @"UISearch Test";
-	NSString *bb = @"Test";
+	NSString *bb = @"AVFoundation Test";
 	NSString *cc = @"Test";
 	NSString *dd = @"Test";
 	NSString *ee = @"Test";
@@ -151,6 +152,13 @@
 		searchVC.navigationItem.title = @"SearchController Test";
 		searchVC.view.backgroundColor = WHITE_COLOR;
 		[self.navigationController pushViewController:searchVC animated:YES];
+	}
+	
+	if (indexPath.section==0 && indexPath.row==11) {
+		UTAVController *avVC = [[UTAVController alloc] init];
+		avVC.navigationItem.title = @"AVFoundation Test";
+		avVC.view.backgroundColor = WHITE_COLOR;
+		[self.navigationController pushViewController:avVC animated:YES];
 	}
 }
 

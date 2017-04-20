@@ -8,7 +8,7 @@
 
 #import "UTSearchController.h"
 #import "FitConsts.h"
-
+#import <Contacts/Contacts.h>
 @interface UTSearchController ()<UITableViewDelegate,UITableViewDataSource,UISearchControllerDelegate,UISearchResultsUpdating>
 
 //tableView
@@ -65,8 +65,7 @@
 	self.tableView.tableHeaderView = _searchController.searchBar;
 	
 	[self.view addSubview:_tableView];
-	
-	
+	[self getContact];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -85,6 +84,41 @@
 	return strTest;
 	
 }
+
+
+
+- (void)getContact {
+	CNAuthorizationStatus authorizationStatus = [CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts];
+	if (authorizationStatus == CNAuthorizationStatusAuthorized) {
+		NSLog(@"没有授权...");
+	}
+	
+	// 获取指定的字段,并不是要获取所有字段，需要指定具体的字段
+	NSArray *keysToFetch = @[CNContactGivenNameKey, CNContactFamilyNameKey, CNContactPhoneNumbersKey];
+	CNContactFetchRequest *fetchRequest = [[CNContactFetchRequest alloc] initWithKeysToFetch:keysToFetch];
+	CNContactStore *contactStore = [[CNContactStore alloc] init];
+	[contactStore enumerateContactsWithFetchRequest:fetchRequest error:nil usingBlock:^(CNContact * _Nonnull contact, BOOL * _Nonnull stop) {
+		NSLog(@"-------------------------------------------------------");
+		NSString *givenName = contact.givenName;
+		NSString *familyName = contact.familyName;
+		NSLog(@"givenName=%@, familyName=%@", givenName, familyName);
+		
+		
+		NSArray *phoneNumbers = contact.phoneNumbers;
+		for (CNLabeledValue *labelValue in phoneNumbers) {
+			NSString *label = labelValue.label;
+			CNPhoneNumber *phoneNumber = labelValue.value;
+			
+			NSLog(@"label=%@, phone=%@", label, phoneNumber.stringValue);
+		}
+		
+		//        *stop = YES;  // 停止循环，相当于break；
+	}];
+	
+}
+
+
+
 
 
 //设置区域的行数

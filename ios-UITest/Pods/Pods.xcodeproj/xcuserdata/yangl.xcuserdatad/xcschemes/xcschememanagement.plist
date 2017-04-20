@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FreeStreamer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSONModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -25,6 +30,11 @@
 			<false/>
 		</dict>
 		<key>Pods-ios-UITest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,42 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>11929A53A8AD141288485C2968E5803E</key>
+		<key>222977FDB769F718DE95F1CB55EB2672</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>51BABD8FE72439AE8072EB6C0CB99F34</key>
+		<key>39C567CFDA1DD6640874017661E32E9E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7CEEB7F4CD0B847C8524FB6C3FD41570</key>
+		<key>538D27396B633A93856FED23FC127015</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>928353533005A4198EBDA5B700D37B64</key>
+		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E9212830DF1456A26CD0721A86F0C91</key>
+		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D058B89EB3B3DF45457A2DCD3971AFFE</key>
+		<key>9C3B6E993B7ABFE6B3A66E7C1F7DF1FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E5FEAA6480940BF7BB2BCFDF6AC19F2C</key>
+		<key>9D4A1B69057B2ACDCF903EC15F099E33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E89EA0620E22EDB775A7C107518644DD</key>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D4130F1B61B971DCAD7671D5045C717F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB31A05090143EAF02A3DE187E2CBA22</key>
 		<dict>
 			<key>primary</key>
 			<true/>

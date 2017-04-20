@@ -128,6 +128,8 @@
 
 #define COLOR_RED_LIGHT                    [UIColor colorWithRed:240.0/255.0 green:103.0/255.0 blue:82.0/255.0 alpha:1.0]
 
+#define PNRed           [UIColor colorWithRed:245.0 / 255.0 green:94.0 / 255.0 blue:78.0 / 255.0 alpha:1.0f]
+
 
 #define COLOR_CNPC_GRAY             [UIColor colorWithRed:57.0/255.0 green:58.0/255.0 blue:63.0/255.0 alpha:1.0]
 //------------------Web页面地址--------------------
