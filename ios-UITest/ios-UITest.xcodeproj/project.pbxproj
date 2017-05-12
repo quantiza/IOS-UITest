@@ -30,9 +30,22 @@
 		9F2E29811DDC4DF300A90011 /* AddImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E29801DDC4DF300A90011 /* AddImageView.m */; };
 		9F2E29841DDC623400A90011 /* PickImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E29831DDC623400A90011 /* PickImageViewController.m */; };
 		9F36ABD71DE58AFA00D15FE8 /* GCDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F36ABD61DE58AFA00D15FE8 /* GCDMainViewController.m */; };
+		9F3E02741EA88DD200E0767C /* UTThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E02731EA88DD200E0767C /* UTThirdViewController.m */; };
+		9F3E027B1EA8908B00E0767C /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E027A1EA8908B00E0767C /* CameraViewController.m */; };
+		9F3E027D1EA8A88700E0767C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3E027C1EA8A88700E0767C /* OpenGLES.framework */; };
+		9F3E027F1EA9A78300E0767C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3E027E1EA9A78300E0767C /* MobileCoreServices.framework */; };
+		9F3E028E1EA9DAEA00E0767C /* PlayStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E028C1EA9DAEA00E0767C /* PlayStringViewController.m */; };
+		9F3E028F1EA9DAEA00E0767C /* PlayStringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3E028D1EA9DAEA00E0767C /* PlayStringViewController.xib */; };
 		9F6080431DD1D50D00B567D2 /* UTOptionbarDesignController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080421DD1D50D00B567D2 /* UTOptionbarDesignController.m */; };
 		9F60804A1DD1DA6E00B567D2 /* UTOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080491DD1DA6E00B567D2 /* UTOptionView.m */; };
 		9F6080531DD1EA4500B567D2 /* UTOptionContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */; };
+		9F6480661EB1957800CE364E /* MantleDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6480641EB1957800CE364E /* MantleDemoViewController.m */; };
+		9F64806C1EB1B77900CE364E /* NoMantleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64806B1EB1B77900CE364E /* NoMantleViewController.m */; };
+		9F64806F1EB1BFE900CE364E /* GHIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64806E1EB1BFE900CE364E /* GHIssue.m */; };
+		9F6480721EB1C16E00CE364E /* GHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6480711EB1C16E00CE364E /* GHUser.m */; };
+		9F6480751EB1D2EC00CE364E /* MantleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6480741EB1D2EC00CE364E /* MantleViewController.m */; };
+		9F64807E1EB1D3CC00CE364E /* GHIssueMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64807D1EB1D3CC00CE364E /* GHIssueMantle.m */; };
+		9F6480811EB1D40B00CE364E /* GHUserMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6480801EB1D40B00CE364E /* GHUserMantle.m */; };
 		9F72BF631E8FD31E001B6E60 /* MultiLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F72BF621E8FD31E001B6E60 /* MultiLabelView.m */; };
 		9F7DBA1F1E272AB600A938D8 /* music-wqs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DBA1E1E272AB600A938D8 /* music-wqs.mp3 */; };
 		9F7DBA2A1E277ECA00A938D8 /* AVAudioPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DBA291E277ECA00A938D8 /* AVAudioPlayerView.m */; };
@@ -54,6 +67,11 @@
 		9FCC6CA81E095B3300F9D457 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC6CA71E095B3300F9D457 /* SearchResultsViewController.m */; };
 		9FE1393B1DC8A0F1005908F9 /* UTButtonTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1393A1DC8A0F1005908F9 /* UTButtonTestController.m */; };
 		9FE139421DC8E65E005908F9 /* UTDatePickerTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE139411DC8E65E005908F9 /* UTDatePickerTestController.m */; };
+		9FE1E2EF1EA9F68E00BC500E /* ConcurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1E2ED1EA9F68E00BC500E /* ConcurrentViewController.m */; };
+		9FE1E2F01EA9F68E00BC500E /* ConcurrentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1E2EE1EA9F68E00BC500E /* ConcurrentViewController.xib */; };
+		9FF1A0AC1EADE8B60078AF92 /* Concurrent1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF1A0AB1EADE8B60078AF92 /* Concurrent1ViewController.m */; };
+		9FF810391EAF4164005B38B5 /* Concurrent2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF810381EAF4164005B38B5 /* Concurrent2ViewController.m */; };
+		9FF8103C1EAF51DE005B38B5 /* Concurrent3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8103B1EAF51DE005B38B5 /* Concurrent3ViewController.m */; };
 		A76B5EE31DC8280200A21BA6 /* UTAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B5EE21DC8280200A21BA6 /* UTAAViewController.m */; };
 		A76B5EE61DC8281800A21BA6 /* UTBBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B5EE51DC8281800A21BA6 /* UTBBViewController.m */; };
 		A76B5EEA1DC82D8400A21BA6 /* UTAAView.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B5EE91DC82D8400A21BA6 /* UTAAView.m */; };
@@ -114,12 +132,35 @@
 		9F2E29831DDC623400A90011 /* PickImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickImageViewController.m; sourceTree = "<group>"; };
 		9F36ABD51DE58AFA00D15FE8 /* GCDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMainViewController.h; sourceTree = "<group>"; };
 		9F36ABD61DE58AFA00D15FE8 /* GCDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDMainViewController.m; sourceTree = "<group>"; };
+		9F3E02721EA88DD200E0767C /* UTThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTThirdViewController.h; sourceTree = "<group>"; };
+		9F3E02731EA88DD200E0767C /* UTThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTThirdViewController.m; sourceTree = "<group>"; };
+		9F3E02791EA8908B00E0767C /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		9F3E027A1EA8908B00E0767C /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		9F3E027C1EA8A88700E0767C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9F3E027E1EA9A78300E0767C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9F3E028B1EA9DAEA00E0767C /* PlayStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayStringViewController.h; sourceTree = "<group>"; };
+		9F3E028C1EA9DAEA00E0767C /* PlayStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayStringViewController.m; sourceTree = "<group>"; };
+		9F3E028D1EA9DAEA00E0767C /* PlayStringViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayStringViewController.xib; sourceTree = "<group>"; };
 		9F6080411DD1D50D00B567D2 /* UTOptionbarDesignController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTOptionbarDesignController.h; sourceTree = "<group>"; };
 		9F6080421DD1D50D00B567D2 /* UTOptionbarDesignController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOptionbarDesignController.m; sourceTree = "<group>"; };
 		9F6080481DD1DA6E00B567D2 /* UTOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTOptionView.h; sourceTree = "<group>"; };
 		9F6080491DD1DA6E00B567D2 /* UTOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOptionView.m; sourceTree = "<group>"; };
 		9F6080511DD1EA4500B567D2 /* UTOptionContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTOptionContentScrollView.h; sourceTree = "<group>"; };
 		9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTOptionContentScrollView.m; sourceTree = "<group>"; };
+		9F6480631EB1957800CE364E /* MantleDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MantleDemoViewController.h; sourceTree = "<group>"; };
+		9F6480641EB1957800CE364E /* MantleDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MantleDemoViewController.m; sourceTree = "<group>"; };
+		9F64806A1EB1B77900CE364E /* NoMantleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoMantleViewController.h; sourceTree = "<group>"; };
+		9F64806B1EB1B77900CE364E /* NoMantleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoMantleViewController.m; sourceTree = "<group>"; };
+		9F64806D1EB1BFE900CE364E /* GHIssue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHIssue.h; sourceTree = "<group>"; };
+		9F64806E1EB1BFE900CE364E /* GHIssue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHIssue.m; sourceTree = "<group>"; };
+		9F6480701EB1C16E00CE364E /* GHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUser.h; sourceTree = "<group>"; };
+		9F6480711EB1C16E00CE364E /* GHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUser.m; sourceTree = "<group>"; };
+		9F6480731EB1D2EC00CE364E /* MantleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MantleViewController.h; sourceTree = "<group>"; };
+		9F6480741EB1D2EC00CE364E /* MantleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MantleViewController.m; sourceTree = "<group>"; };
+		9F64807C1EB1D3CC00CE364E /* GHIssueMantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHIssueMantle.h; sourceTree = "<group>"; };
+		9F64807D1EB1D3CC00CE364E /* GHIssueMantle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHIssueMantle.m; sourceTree = "<group>"; };
+		9F64807F1EB1D40B00CE364E /* GHUserMantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUserMantle.h; sourceTree = "<group>"; };
+		9F6480801EB1D40B00CE364E /* GHUserMantle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUserMantle.m; sourceTree = "<group>"; };
 		9F72BF611E8FD31E001B6E60 /* MultiLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLabelView.h; sourceTree = "<group>"; };
 		9F72BF621E8FD31E001B6E60 /* MultiLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLabelView.m; sourceTree = "<group>"; };
 		9F7DBA1E1E272AB600A938D8 /* music-wqs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "music-wqs.mp3"; sourceTree = "<group>"; };
@@ -160,6 +201,15 @@
 		9FE1393A1DC8A0F1005908F9 /* UTButtonTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTButtonTestController.m; sourceTree = "<group>"; };
 		9FE139401DC8E65E005908F9 /* UTDatePickerTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDatePickerTestController.h; sourceTree = "<group>"; };
 		9FE139411DC8E65E005908F9 /* UTDatePickerTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTDatePickerTestController.m; sourceTree = "<group>"; };
+		9FE1E2EC1EA9F68E00BC500E /* ConcurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentViewController.h; sourceTree = "<group>"; };
+		9FE1E2ED1EA9F68E00BC500E /* ConcurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentViewController.m; sourceTree = "<group>"; };
+		9FE1E2EE1EA9F68E00BC500E /* ConcurrentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConcurrentViewController.xib; sourceTree = "<group>"; };
+		9FF1A0AA1EADE8B60078AF92 /* Concurrent1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concurrent1ViewController.h; sourceTree = "<group>"; };
+		9FF1A0AB1EADE8B60078AF92 /* Concurrent1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Concurrent1ViewController.m; sourceTree = "<group>"; };
+		9FF810371EAF4164005B38B5 /* Concurrent2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concurrent2ViewController.h; sourceTree = "<group>"; };
+		9FF810381EAF4164005B38B5 /* Concurrent2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Concurrent2ViewController.m; sourceTree = "<group>"; };
+		9FF8103A1EAF51DE005B38B5 /* Concurrent3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concurrent3ViewController.h; sourceTree = "<group>"; };
+		9FF8103B1EAF51DE005B38B5 /* Concurrent3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Concurrent3ViewController.m; sourceTree = "<group>"; };
 		A76B5EE11DC8280200A21BA6 /* UTAAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTAAViewController.h; sourceTree = "<group>"; };
 		A76B5EE21DC8280200A21BA6 /* UTAAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTAAViewController.m; sourceTree = "<group>"; };
 		A76B5EE41DC8281800A21BA6 /* UTBBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTBBViewController.h; sourceTree = "<group>"; };
@@ -210,6 +260,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3E027F1EA9A78300E0767C /* MobileCoreServices.framework in Frameworks */,
+				9F3E027D1EA8A88700E0767C /* OpenGLES.framework in Frameworks */,
 				9F80EDD61DEC0D69004272FF /* libsqlite3.tbd in Frameworks */,
 				F6F92235DFD8C1917898A95B /* libPods-ios-UITest.a in Frameworks */,
 			);
@@ -296,6 +348,25 @@
 			path = GCDTest;
 			sourceTree = "<group>";
 		};
+		9F3E02781EA8906700E0767C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9F3E02791EA8908B00E0767C /* CameraViewController.h */,
+				9F3E027A1EA8908B00E0767C /* CameraViewController.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9F3E02851EA9D9BF00E0767C /* PlayString */ = {
+			isa = PBXGroup;
+			children = (
+				9F3E028B1EA9DAEA00E0767C /* PlayStringViewController.h */,
+				9F3E028C1EA9DAEA00E0767C /* PlayStringViewController.m */,
+				9F3E028D1EA9DAEA00E0767C /* PlayStringViewController.xib */,
+			);
+			path = PlayString;
+			sourceTree = "<group>";
+		};
 		9F6080401DD1D4DF00B567D2 /* UTOptionBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +385,43 @@
 				9F6080521DD1EA4500B567D2 /* UTOptionContentScrollView.m */,
 			);
 			path = UTOptionBarView;
+			sourceTree = "<group>";
+		};
+		9F6480621EB1952A00CE364E /* MantleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9F6480691EB1B58500CE364E /* Github Issue(with mantle) */,
+				9F6480681EB1B56700CE364E /* Github Issue(no mantle) */,
+				9F6480631EB1957800CE364E /* MantleDemoViewController.h */,
+				9F6480641EB1957800CE364E /* MantleDemoViewController.m */,
+			);
+			name = MantleDemo;
+			sourceTree = "<group>";
+		};
+		9F6480681EB1B56700CE364E /* Github Issue(no mantle) */ = {
+			isa = PBXGroup;
+			children = (
+				9F64806A1EB1B77900CE364E /* NoMantleViewController.h */,
+				9F64806B1EB1B77900CE364E /* NoMantleViewController.m */,
+				9F64806D1EB1BFE900CE364E /* GHIssue.h */,
+				9F64806E1EB1BFE900CE364E /* GHIssue.m */,
+				9F6480701EB1C16E00CE364E /* GHUser.h */,
+				9F6480711EB1C16E00CE364E /* GHUser.m */,
+			);
+			name = "Github Issue(no mantle)";
+			sourceTree = "<group>";
+		};
+		9F6480691EB1B58500CE364E /* Github Issue(with mantle) */ = {
+			isa = PBXGroup;
+			children = (
+				9F6480731EB1D2EC00CE364E /* MantleViewController.h */,
+				9F6480741EB1D2EC00CE364E /* MantleViewController.m */,
+				9F64807C1EB1D3CC00CE364E /* GHIssueMantle.h */,
+				9F64807D1EB1D3CC00CE364E /* GHIssueMantle.m */,
+				9F64807F1EB1D40B00CE364E /* GHUserMantle.h */,
+				9F6480801EB1D40B00CE364E /* GHUserMantle.m */,
+			);
+			name = "Github Issue(with mantle)";
 			sourceTree = "<group>";
 		};
 		9F7DBA271E277ECA00A938D8 /* AVFoundationView */ = {
@@ -457,6 +565,22 @@
 			path = UIDatePicker;
 			sourceTree = "<group>";
 		};
+		9FE1E2EB1EA9F65A00BC500E /* Concurrent */ = {
+			isa = PBXGroup;
+			children = (
+				9FE1E2EC1EA9F68E00BC500E /* ConcurrentViewController.h */,
+				9FE1E2ED1EA9F68E00BC500E /* ConcurrentViewController.m */,
+				9FE1E2EE1EA9F68E00BC500E /* ConcurrentViewController.xib */,
+				9FF1A0AA1EADE8B60078AF92 /* Concurrent1ViewController.h */,
+				9FF1A0AB1EADE8B60078AF92 /* Concurrent1ViewController.m */,
+				9FF810371EAF4164005B38B5 /* Concurrent2ViewController.h */,
+				9FF810381EAF4164005B38B5 /* Concurrent2ViewController.m */,
+				9FF8103A1EAF51DE005B38B5 /* Concurrent3ViewController.h */,
+				9FF8103B1EAF51DE005B38B5 /* Concurrent3ViewController.m */,
+			);
+			name = Concurrent;
+			sourceTree = "<group>";
+		};
 		A76B5EE01DC8270A00A21BA6 /* IOSPassValue */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +639,8 @@
 				A79727E91DC381B600058B6D /* UTOneViewController.m */,
 				A76B5EEE1DC873C200A21BA6 /* UTTwoViewController.h */,
 				A76B5EEF1DC873C200A21BA6 /* UTTwoViewController.m */,
+				9F3E02721EA88DD200E0767C /* UTThirdViewController.h */,
+				9F3E02731EA88DD200E0767C /* UTThirdViewController.m */,
 			);
 			path = RootController;
 			sourceTree = "<group>";
@@ -578,6 +704,10 @@
 			isa = PBXGroup;
 			children = (
 				A78EA0141DC65B6300DEB6E3 /* RootController */,
+				9F6480621EB1952A00CE364E /* MantleDemo */,
+				9FE1E2EB1EA9F65A00BC500E /* Concurrent */,
+				9F3E02851EA9D9BF00E0767C /* PlayString */,
+				9F3E02781EA8906700E0767C /* Camera */,
 				9F7DFEB01E263C3600140046 /* AVFoundationTest */,
 				9FCC6CA21E0938B400F9D457 /* UISearchControl */,
 				9F8E277F1DF6C34E00AE01F0 /* AnimationTest */,
@@ -668,6 +798,8 @@
 		F7DF90F9D025B45E6F800D37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F3E027E1EA9A78300E0767C /* MobileCoreServices.framework */,
+				9F3E027C1EA8A88700E0767C /* OpenGLES.framework */,
 				9F80EDD51DEC0D69004272FF /* libsqlite3.tbd */,
 				2DB2D3C706457175D59485CD /* libPods-ios-UITest.a */,
 			);
@@ -743,6 +875,7 @@
 				9F15EFD81DDDE857002A734F /* post.json in Resources */,
 				9F15EFDB1DDDE857002A734F /* specialPropertyName.json in Resources */,
 				9F15EFD51DDDE857002A734F /* nestedDataWithDictionaryError.json in Resources */,
+				9F3E028F1EA9DAEA00E0767C /* PlayStringViewController.xib in Resources */,
 				9F15EFCF1DDDE857002A734F /* colors.json in Resources */,
 				9F7DBA1F1E272AB600A938D8 /* music-wqs.mp3 in Resources */,
 				9F15EFDA1DDDE857002A734F /* primitivesWithErrors.json in Resources */,
@@ -750,6 +883,7 @@
 				A79727D41DC3486C00058B6D /* Main.storyboard in Resources */,
 				A79727D21DC3486C00058B6D /* Assets.xcassets in Resources */,
 				9F15EFD61DDDE857002A734F /* nestedDataWithTypeMismatchOnImages.json in Resources */,
+				9FE1E2F01EA9F68E00BC500E /* ConcurrentViewController.xib in Resources */,
 				9F15EFD21DDDE857002A734F /* jsonTypes.json in Resources */,
 				9F15EFDD1DDDE857002A734F /* withoutOptProp.json in Resources */,
 				9F15EFD91DDDE857002A734F /* primitives.json in Resources */,
@@ -817,29 +951,39 @@
 				9F72BF631E8FD31E001B6E60 /* MultiLabelView.m in Sources */,
 				9F15EFA01DDD4275002A734F /* AssetPickerViewController.m in Sources */,
 				A78EA0011DC3B0FB00DEB6E3 /* UTGestureViewController.m in Sources */,
+				9FF8103C1EAF51DE005B38B5 /* Concurrent3ViewController.m in Sources */,
 				A79727DE1DC34DE000058B6D /* UTTouchEventViewController.m in Sources */,
+				9F6480661EB1957800CE364E /* MantleDemoViewController.m in Sources */,
 				A78EA0131DC65B1300DEB6E3 /* UTTouchEventImageView.m in Sources */,
 				A78EA0121DC65B1300DEB6E3 /* UTGestureView.m in Sources */,
 				A76B5EE31DC8280200A21BA6 /* UTAAViewController.m in Sources */,
 				9F15EFA31DDD5A95002A734F /* AssetPickTestViewController.m in Sources */,
 				9FAF6E711DC97DBF00A206F5 /* UTPageController.m in Sources */,
 				9F60804A1DD1DA6E00B567D2 /* UTOptionView.m in Sources */,
+				9F64806C1EB1B77900CE364E /* NoMantleViewController.m in Sources */,
 				9F7DFEB61E263CAB00140046 /* UTAVController.m in Sources */,
+				9FF1A0AC1EADE8B60078AF92 /* Concurrent1ViewController.m in Sources */,
 				A78EA0191DC6664100DEB6E3 /* UTBasicGraphicsViewController.m in Sources */,
+				9F6480811EB1D40B00CE364E /* GHUserMantle.m in Sources */,
 				A79727D91DC3486C00058B6D /* main.m in Sources */,
+				9F3E028E1EA9DAEA00E0767C /* PlayStringViewController.m in Sources */,
 				A76B5EED1DC8317D00A21BA6 /* UTBBView.m in Sources */,
 				9F6080531DD1EA4500B567D2 /* UTOptionContentScrollView.m in Sources */,
 				9F15EFE01DDDEBF7002A734F /* ReposModel.m in Sources */,
 				9FE1393B1DC8A0F1005908F9 /* UTButtonTestController.m in Sources */,
+				9F3E02741EA88DD200E0767C /* UTThirdViewController.m in Sources */,
 				9F2E29811DDC4DF300A90011 /* AddImageView.m in Sources */,
 				A76B5EEA1DC82D8400A21BA6 /* UTAAView.m in Sources */,
+				9FF810391EAF4164005B38B5 /* Concurrent2ViewController.m in Sources */,
 				9F15EFEC1DDE0549002A734F /* GithubRepoModel.m in Sources */,
 				A79727EA1DC381B600058B6D /* UTOneViewController.m in Sources */,
 				9F9E5AA81DF49F0700FD7FE2 /* HealthManagerViewController.m in Sources */,
 				A77266311DC72EEB0026AA56 /* UTSectionHeadView.m in Sources */,
 				9F8E278B1DF6EC1B00AE01F0 /* VWWWaterView.m in Sources */,
 				9F80EDDA1DEC4751004272FF /* CITestViewController.m in Sources */,
+				9F6480751EB1D2EC00CE364E /* MantleViewController.m in Sources */,
 				9F36ABD71DE58AFA00D15FE8 /* GCDMainViewController.m in Sources */,
+				9F3E027B1EA8908B00E0767C /* CameraViewController.m in Sources */,
 				9FE139421DC8E65E005908F9 /* UTDatePickerTestController.m in Sources */,
 				A78EA01C1DC66CE600DEB6E3 /* UTBasicGraphicsView.m in Sources */,
 				9FAF6E791DC9BE6A00A206F5 /* UTSliderController.m in Sources */,
@@ -854,11 +998,15 @@
 				9F9B626A1DD77D7A004E8A12 /* PNChartViewController.m in Sources */,
 				A772662D1DC724B20026AA56 /* UTTableViewController.m in Sources */,
 				9FCC6CA81E095B3300F9D457 /* SearchResultsViewController.m in Sources */,
+				9F64807E1EB1D3CC00CE364E /* GHIssueMantle.m in Sources */,
 				A79727D51DC3486C00058B6D /* FitNavigationController.m in Sources */,
+				9F6480721EB1C16E00CE364E /* GHUser.m in Sources */,
 				A79727D71DC3486C00058B6D /* FitConsts.m in Sources */,
 				9FAF6E751DC9B1DA00A206F5 /* UTSegmentedController.m in Sources */,
 				9F2E29841DDC623400A90011 /* PickImageViewController.m in Sources */,
+				9F64806F1EB1BFE900CE364E /* GHIssue.m in Sources */,
 				9FAF6E7D1DC9D89A00A206F5 /* UTSwitchController.m in Sources */,
+				9FE1E2EF1EA9F68E00BC500E /* ConcurrentViewController.m in Sources */,
 				A76B5EF01DC873C200A21BA6 /* UTTwoViewController.m in Sources */,
 				9FC3CBE81DED7400003ED1CE /* DBManager.m in Sources */,
 				9F8E27881DF6C6B400AE01F0 /* AnimationViewController.m in Sources */,

@@ -10,7 +10,7 @@
 #import "FitNavigationController.h"
 #import "UTOneViewController.h"
 #import "UTTwoViewController.h"
-
+#import "UTThirdViewController.h"
 
 @implementation FitTabbarController
 
@@ -57,8 +57,14 @@
     FitNavigationController *twoNav = [[FitNavigationController alloc] initWithRootViewController:twoVC];
     UITabBarItem *itemTwo = [[UITabBarItem alloc] initWithTitle:@"Second" image:nil selectedImage:nil];
     [twoNav setTabBarItem:itemTwo];
-    
-    [self setViewControllers:@[oneNav, twoNav] animated:YES];
+	
+	UTThirdViewController *thirdVC = [[UTThirdViewController alloc] init];
+	thirdVC.title = @"TAB THREE";
+	FitNavigationController *thirdNav = [[FitNavigationController alloc] initWithRootViewController:thirdVC];
+	UITabBarItem *itemThird = [[UITabBarItem alloc] initWithTitle:@"Third" image:nil selectedImage:nil];
+	[thirdNav setTabBarItem:itemThird];
+	
+    [self setViewControllers:@[oneNav, twoNav, thirdNav] animated:YES];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle

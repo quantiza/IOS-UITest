@@ -17,6 +17,9 @@ PODS:
   - FreeStreamer (3.7.2):
     - Reachability (~> 3.0)
   - JSONModel (1.7.0)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
   - MBProgressHUD (1.0.0)
   - PNChart (0.8.9):
     - UICountingLabel (~> 1.2.0)
@@ -31,6 +34,7 @@ DEPENDENCIES:
   - AFNetworking
   - FreeStreamer
   - JSONModel
+  - Mantle
   - MBProgressHUD
   - PNChart
   - SDWebImage
@@ -41,6 +45,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FreeStreamer: 98f42f926bed70e3f8873930bc530aae83082d9f
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
@@ -48,6 +53,6 @@ SPEC CHECKSUMS:
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
   ZYQAssetPickerController: e5cf51ee6c05fa06746830026c247cb9f6699e84
 
-PODFILE CHECKSUM: 6ee80ee940c31d5291d7d95ea849c1b2ea6bf208
+PODFILE CHECKSUM: 8002cd919a946eb66ce642d58519d5263674989a
 
 COCOAPODS: 1.1.1

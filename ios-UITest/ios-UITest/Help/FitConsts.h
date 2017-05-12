@@ -156,3 +156,4 @@ extern NSString *const SERVICE_AGREEMENTS_URL;
 #define GOODS_CATEGORY_TYPE_Bupin           @"BuPin"
 #define GOODS_CATEGORY_TYPE_Zhinengcheng    @"ZhiNengCheng"
 
+#define ImageUrl @"http://uploadfile.tukuwa.com/2015/1013/20151013100803231.jpg"
