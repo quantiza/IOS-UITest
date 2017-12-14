@@ -49,10 +49,13 @@
 #define kNaviHeight              44.0f
 #define kToolBarHeight           49.0f
 #define kStatuBarHeight          20.0f
+#define kTabBarHeight            50.0f
+#define kTopBarHeight            64.0f
+#define kNormalHeight			578.0f
 
 #define SETTINGS_SECTION_HEIGHT     15
 #define SETTINGS_CELL_HEIGHT        45
-
+#define kLineHeight (1 / [UIScreen mainScreen].scale)
 
 //------------------日期格式字符串--------------------
 
@@ -94,6 +97,12 @@
 #define TABBAR_COLOR                [UIColor colorWithRed:51.0/255  green:51.0/255 blue:51.0/255    alpha:1]
 #define BTN_ORANGE_COLOR            [UIColor colorWithRed:0.980     green:0.675     blue:0.286      alpha:1]
 
+#define PURPLE_COLOR                [UIColor purpleColor]
+#define GREEN_COLOR                 [UIColor greenColor]
+#define BLACK_COLOR                 [UIColor blackColor]
+#define RED_COLOR                   [UIColor redColor]
+#define WHITE_COLOR                 [UIColor whiteColor]
+#define CLEAR_COLOR                 [UIColor clearColor]
 #define ORANGE_COLOR                [UIColor colorWithRed:1.000 green:0.596 blue:0.000 alpha:1]
 #define BLUE_COLOR                  [UIColor colorWithRed:0.000 green:0.424 blue:0.980 alpha:1]
 #define YELLOW_COLOR                [UIColor colorWithRed:1.000 green:0.753 blue:0.208 alpha:1]
@@ -117,7 +126,9 @@
 #define COLOR_BGVIEW_GREEN          [UIColor colorWithRed:72 / 255.0 green:206 / 255.0 blue:164 / 255.0 alpha:1]
 #define COLOR_CASELBL_BORDER        [UIColor colorWithRed:174 / 255.0 green:174 / 255.0 blue:174 / 255.0 alpha:1]
 
-#define RED_CLOOR                    [UIColor colorWithRed:240.0/255.0 green:103.0/255.0 blue:82.0/255.0 alpha:1.0]
+#define COLOR_RED_LIGHT                    [UIColor colorWithRed:240.0/255.0 green:103.0/255.0 blue:82.0/255.0 alpha:1.0]
+
+#define PNRed           [UIColor colorWithRed:245.0 / 255.0 green:94.0 / 255.0 blue:78.0 / 255.0 alpha:1.0f]
 
 
 #define COLOR_CNPC_GRAY             [UIColor colorWithRed:57.0/255.0 green:58.0/255.0 blue:63.0/255.0 alpha:1.0]
@@ -145,3 +156,4 @@ extern NSString *const SERVICE_AGREEMENTS_URL;
 #define GOODS_CATEGORY_TYPE_Bupin           @"BuPin"
 #define GOODS_CATEGORY_TYPE_Zhinengcheng    @"ZhiNengCheng"
 
+#define ImageUrl @"http://uploadfile.tukuwa.com/2015/1013/20151013100803231.jpg"

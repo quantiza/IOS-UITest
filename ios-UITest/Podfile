@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'ios-UITest' do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'JSONModel'
+pod 'PNChart'
+pod 'ZYQAssetPickerController',  '~> 1.0.0'
+pod 'UICountingLabel'
+pod 'FreeStreamer'
+
+pod 'Mantle'
+end

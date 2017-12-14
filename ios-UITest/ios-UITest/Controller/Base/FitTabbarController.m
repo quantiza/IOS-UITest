@@ -8,7 +8,9 @@
 
 #import "FitTabbarController.h"
 #import "FitNavigationController.h"
-
+#import "UTOneViewController.h"
+#import "UTTwoViewController.h"
+#import "UTThirdViewController.h"
 
 @implementation FitTabbarController
 
@@ -25,8 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-//    [self createUI];
+    [self createUI];
 }
 
 - (void)createUI
@@ -37,6 +38,33 @@
    
     //设置工具栏中文字的偏移量
     [[UITabBarItem appearance]setTitlePositionAdjustment:UIOffsetMake(0, -3)];
+    
+    //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    //1.创建一个VC，设置VC的title
+    //2.创建一个Nav，设置其rootViewController
+    //3.设置NavTabBarItem
+    //4.最后把Nav加进TabbbarController的ViewControllers里
+    //基本逻辑是：window.rootVC=tabbar => tabbar.VCs=[navVC1,navVC2...] => navVC.rootVC=VC
+    //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    UTOneViewController *oneVC = [[UTOneViewController alloc] init];
+    oneVC.title = @"TAB ONE";
+    FitNavigationController *oneNav = [[FitNavigationController alloc] initWithRootViewController:oneVC];
+    UITabBarItem *itemOne = [[UITabBarItem alloc] initWithTitle:@"First" image:nil selectedImage:nil];
+    [oneNav setTabBarItem:itemOne];
+    
+    UTTwoViewController *twoVC = [[UTTwoViewController alloc] init];
+    twoVC.title = @"TAB TWO";
+    FitNavigationController *twoNav = [[FitNavigationController alloc] initWithRootViewController:twoVC];
+    UITabBarItem *itemTwo = [[UITabBarItem alloc] initWithTitle:@"Second" image:nil selectedImage:nil];
+    [twoNav setTabBarItem:itemTwo];
+	
+	UTThirdViewController *thirdVC = [[UTThirdViewController alloc] init];
+	thirdVC.title = @"TAB THREE";
+	FitNavigationController *thirdNav = [[FitNavigationController alloc] initWithRootViewController:thirdVC];
+	UITabBarItem *itemThird = [[UITabBarItem alloc] initWithTitle:@"Third" image:nil selectedImage:nil];
+	[thirdNav setTabBarItem:itemThird];
+	
+    [self setViewControllers:@[oneNav, twoNav, thirdNav] animated:YES];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
@@ -45,3 +73,17 @@
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+

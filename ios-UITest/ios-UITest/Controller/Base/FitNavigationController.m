@@ -16,7 +16,7 @@
     self = [super initWithRootViewController:rootViewController];
     if (self) {
         self.navigationBar.tintColor                    = [UIColor whiteColor];
-        self.navigationBar.barTintColor                 = [UIColor blackColor];
+        self.navigationBar.barTintColor                 = BLACK_COLOR;
         self.navigationBar.titleTextAttributes          = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],
                                                            NSForegroundColorAttributeName, nil];
         [self.navigationBar setTranslucent:NO];
