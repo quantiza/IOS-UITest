@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2537731FE37D3F0022506D /* PYTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2537721FE37D3F0022506D /* PYTempViewController.m */; };
+		0F53A4351FE3785C00761D6A /* PYSearchDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F53A4341FE3785C00761D6A /* PYSearchDemoController.m */; };
 		9F15EFA01DDD4275002A734F /* AssetPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F15EF9F1DDD4275002A734F /* AssetPickerViewController.m */; };
 		9F15EFA31DDD5A95002A734F /* AssetPickTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F15EFA21DDD5A95002A734F /* AssetPickTestViewController.m */; };
 		9F15EFBE1DDDC3A7002A734F /* JsonModelTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F15EFBD1DDDC3A7002A734F /* JsonModelTestViewController.m */; };
@@ -99,6 +101,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F2537711FE37D3F0022506D /* PYTempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTempViewController.h; sourceTree = "<group>"; };
+		0F2537721FE37D3F0022506D /* PYTempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTempViewController.m; sourceTree = "<group>"; };
+		0F53A4331FE3785C00761D6A /* PYSearchDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYSearchDemoController.h; sourceTree = "<group>"; };
+		0F53A4341FE3785C00761D6A /* PYSearchDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYSearchDemoController.m; sourceTree = "<group>"; };
 		2DB2D3C706457175D59485CD /* libPods-ios-UITest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-UITest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8273556AB065D292BED8FD96 /* Pods-ios-UITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-UITest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-UITest/Pods-ios-UITest.release.xcconfig"; sourceTree = "<group>"; };
 		9F15EF9E1DDD4275002A734F /* AssetPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetPickerViewController.h; sourceTree = "<group>"; };
@@ -270,6 +276,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F53A4321FE3775300761D6A /* PYSearchTest */ = {
+			isa = PBXGroup;
+			children = (
+				0F53A4331FE3785C00761D6A /* PYSearchDemoController.h */,
+				0F53A4341FE3785C00761D6A /* PYSearchDemoController.m */,
+				0F2537711FE37D3F0022506D /* PYTempViewController.h */,
+				0F2537721FE37D3F0022506D /* PYTempViewController.m */,
+			);
+			path = PYSearchTest;
+			sourceTree = "<group>";
+		};
 		9860A30761A99EA451537D17 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -703,6 +720,7 @@
 		A79727C21DC3486C00058B6D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0F53A4321FE3775300761D6A /* PYSearchTest */,
 				A78EA0141DC65B6300DEB6E3 /* RootController */,
 				9F6480621EB1952A00CE364E /* MantleDemo */,
 				9FE1E2EB1EA9F65A00BC500E /* Concurrent */,
@@ -902,9 +920,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-UITest/Pods-ios-UITest-resources.sh",
+				"${PODS_ROOT}/PYSearch/PYSearch/PYSearch.bundle",
+				"${PODS_ROOT}/ZYQAssetPickerController/ZYQAssetPickerController/ZYQAssetPicker.Bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -917,13 +939,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-UITest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8C2BB2787D51F1D1C12EBDB4 /* [CP] Embed Pods Frameworks */ = {
@@ -966,6 +991,7 @@
 				A78EA0191DC6664100DEB6E3 /* UTBasicGraphicsViewController.m in Sources */,
 				9F6480811EB1D40B00CE364E /* GHUserMantle.m in Sources */,
 				A79727D91DC3486C00058B6D /* main.m in Sources */,
+				0F2537731FE37D3F0022506D /* PYTempViewController.m in Sources */,
 				9F3E028E1EA9DAEA00E0767C /* PlayStringViewController.m in Sources */,
 				A76B5EED1DC8317D00A21BA6 /* UTBBView.m in Sources */,
 				9F6080531DD1EA4500B567D2 /* UTOptionContentScrollView.m in Sources */,
@@ -975,6 +1001,7 @@
 				9F2E29811DDC4DF300A90011 /* AddImageView.m in Sources */,
 				A76B5EEA1DC82D8400A21BA6 /* UTAAView.m in Sources */,
 				9FF810391EAF4164005B38B5 /* Concurrent2ViewController.m in Sources */,
+				0F53A4351FE3785C00761D6A /* PYSearchDemoController.m in Sources */,
 				9F15EFEC1DDE0549002A734F /* GithubRepoModel.m in Sources */,
 				A79727EA1DC381B600058B6D /* UTOneViewController.m in Sources */,
 				9F9E5AA81DF49F0700FD7FE2 /* HealthManagerViewController.m in Sources */,

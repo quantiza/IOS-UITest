@@ -20,6 +20,7 @@
 #import "AnimationViewController.h"
 #import "UTSearchController.h"
 #import "UTAVController.h"
+#import "PYSearchDemoController.h"
 
 @interface UTTwoViewController() <UITableViewDelegate, UITableViewDataSource> {
     UITableView *table;
@@ -54,7 +55,7 @@
     NSString *ten = @"Animation Test";
 	NSString *aa = @"UISearch Test";
 	NSString *bb = @"AVFoundation Test";
-	NSString *cc = @"Test";
+	NSString *cc = @"PYSearch Test";
 	NSString *dd = @"Test";
 	NSString *ee = @"Test";
 	NSString *ff = @"Test";
@@ -160,6 +161,13 @@
 		avVC.view.backgroundColor = WHITE_COLOR;
 		[self.navigationController pushViewController:avVC animated:YES];
 	}
+    
+    if (indexPath.section==0 && indexPath.row==12) {
+        PYSearchDemoController *pySearchVC = [[PYSearchDemoController alloc] init];
+        pySearchVC.navigationItem.title = @"PYSearch Test";
+        pySearchVC.view.backgroundColor = WHITE_COLOR;
+        [self.navigationController pushViewController:pySearchVC animated:YES];
+    }
 }
 
 

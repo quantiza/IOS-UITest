@@ -10,6 +10,7 @@ pod 'PNChart'
 pod 'ZYQAssetPickerController',  '~> 1.0.0'
 pod 'UICountingLabel'
 pod 'FreeStreamer'
-
 pod 'Mantle'
+pod 'PYSearch'
 end
+

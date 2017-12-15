@@ -23,6 +23,7 @@ PODS:
   - MBProgressHUD (1.0.0)
   - PNChart (0.8.9):
     - UICountingLabel (~> 1.2.0)
+  - PYSearch (0.8.7)
   - Reachability (3.2)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -37,6 +38,7 @@ DEPENDENCIES:
   - Mantle
   - MBProgressHUD
   - PNChart
+  - PYSearch
   - SDWebImage
   - UICountingLabel
   - ZYQAssetPickerController (~> 1.0.0)
@@ -48,11 +50,12 @@ SPEC CHECKSUMS:
   Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  PYSearch: 8b58c757c7756cb1a8174a28def03e51700892ff
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
   ZYQAssetPickerController: e5cf51ee6c05fa06746830026c247cb9f6699e84
 
-PODFILE CHECKSUM: 8002cd919a946eb66ce642d58519d5263674989a
+PODFILE CHECKSUM: 27402d74d6c6fd2173b7a964fcdc6ef899df0995
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.3.1
