@@ -12,5 +12,7 @@ pod 'UICountingLabel'
 pod 'FreeStreamer'
 pod 'Mantle'
 pod 'PYSearch'
+
+pod 'ReactiveObjC'
 end
 

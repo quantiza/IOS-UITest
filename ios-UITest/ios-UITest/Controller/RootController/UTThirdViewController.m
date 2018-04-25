@@ -12,6 +12,9 @@
 #import "PlayStringViewController.h"
 #import "ConcurrentViewController.h"
 #import "MantleDemoViewController.h"
+#import "RacTestViewController.h"
+#import "TableViewOptController.h"
+#import "CTMainController.h"
 
 @interface UTThirdViewController() <UITableViewDelegate, UITableViewDataSource> {
 	UITableView *table;
@@ -38,9 +41,9 @@
 	NSString *two = @"Play String";
 	NSString *three = @"Concurrent";
 	NSString *four = @"MantleDemo";
-	NSString *five = @"Test";
-	NSString *six = @"Test";
-	NSString *seven = @"Test";
+	NSString *five = @"RAC-DEMO";
+	NSString *six = @"TabeView-Opt";
+	NSString *seven = @"CTMainController";
 	NSString *eight = @"Design";
 	NSString *nine = @"Test";
 	NSString *ten = @"Test";
@@ -104,22 +107,22 @@
 		MantleDemoViewController *mantleCtrl = [[MantleDemoViewController alloc] init];
 		[self.navigationController pushViewController:mantleCtrl animated:YES];
 	}
+
+    if (indexPath.section==0 && indexPath.row==4) {
+        RacTestViewController *racVC = [[RacTestViewController alloc] init];
+        [self.navigationController pushViewController:racVC animated:YES];
+    }
+
+    if (indexPath.section==0 && indexPath.row==5) {
+        TableViewOptController *vc = [[TableViewOptController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+
+    if (indexPath.section==0 && indexPath.row==6) {
+        CTMainController *vc = [[CTMainController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 //
-//	if (indexPath.section==0 && indexPath.row==4) {
-//		UTSliderController *sliderCtrl = [[UTSliderController alloc] init];
-//		[self.navigationController pushViewController:sliderCtrl animated:YES];
-//	}
-//	
-//	if (indexPath.section==0 && indexPath.row==5) {
-//		UTSwitchController *switchCtrl = [[UTSwitchController alloc] init];
-//		[self.navigationController pushViewController:switchCtrl animated:YES];
-//	}
-//	
-//	if (indexPath.section==0 && indexPath.row==6) {
-//		UTTextFieldController *textFieldCtrl = [[UTTextFieldController alloc] init];
-//		[self.navigationController pushViewController:textFieldCtrl animated:YES];
-//	}
-//	
 //	if (indexPath.section==0 && indexPath.row==7) {
 //		UTOptionbarDesignController *optionCtrl = [[UTOptionbarDesignController alloc] init];
 //		[self.navigationController pushViewController:optionCtrl animated:YES];

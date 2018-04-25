@@ -1,0 +1,22 @@
+//
+//  ios-UITest-Prefix.pch
+//  ios-UITest
+//
+//  Created by Long Yang on 2018/4/17.
+//  Copyright © 2018年 yl. All rights reserved.
+//
+
+#ifndef ios_UITest_Prefix_pch
+#define ios_UITest_Prefix_pch
+
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define debugLog(...)
+#define debugMethod()
+#endif
+
+#import "FitConsts.h"
+
+#endif /* ios_UITest_Prefix_pch */
