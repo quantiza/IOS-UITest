@@ -15,6 +15,7 @@
 #import "RacTestViewController.h"
 #import "TableViewOptController.h"
 #import "CTMainController.h"
+#import "RunloopMainController.h"
 
 @interface UTThirdViewController() <UITableViewDelegate, UITableViewDataSource> {
 	UITableView *table;
@@ -45,7 +46,7 @@
 	NSString *six = @"TabeView-Opt";
 	NSString *seven = @"CTMainController";
 	NSString *eight = @"Design";
-	NSString *nine = @"Test";
+	NSString *nine = @"Runloop";
 	NSString *ten = @"Test";
 	NSString *aa = @"Test";
 	NSString *bb = @"Test";
@@ -122,12 +123,12 @@
         CTMainController *vc = [[CTMainController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
+
+    if (indexPath.section==0 && indexPath.row==7) {
+        RunloopMainController *vc = [[RunloopMainController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 //
-//	if (indexPath.section==0 && indexPath.row==7) {
-//		UTOptionbarDesignController *optionCtrl = [[UTOptionbarDesignController alloc] init];
-//		[self.navigationController pushViewController:optionCtrl animated:YES];
-//	}
-//	
 //	if (indexPath.section==0 && indexPath.row==8) {
 //		CITestViewController *CITestCtrl = [[CITestViewController alloc] init];
 //		CITestCtrl.navigationItem.title = @"Core Image Test";
