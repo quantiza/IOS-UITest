@@ -10,6 +10,7 @@
 		0F184C88200CA1B800CD19FC /* RacTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F184C86200CA1B800CD19FC /* RacTestViewController.m */; };
 		0F184C89200CA1B800CD19FC /* RacTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F184C87200CA1B800CD19FC /* RacTestViewController.xib */; };
 		0F2537731FE37D3F0022506D /* PYTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2537721FE37D3F0022506D /* PYTempViewController.m */; };
+		0F30569820AA883B00001CDE /* MapDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30569720AA883B00001CDE /* MapDemoController.m */; };
 		0F516B4F209BFEE100A0E6DA /* RunloopMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F516B4E209BFEE100A0E6DA /* RunloopMainController.m */; };
 		0F53A4351FE3785C00761D6A /* PYSearchDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F53A4341FE3785C00761D6A /* PYSearchDemoController.m */; };
 		0F6C7B59209057E500AA4A6F /* FindMinMaxThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C7B58209057E500AA4A6F /* FindMinMaxThread.m */; };
@@ -23,6 +24,9 @@
 		0F7491B22084767100FE7AA2 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491AD2084767100FE7AA2 /* NSString+Additions.m */; };
 		0F7491B82084822E00FE7AA2 /* OptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491B72084822E00FE7AA2 /* OptTableViewCell.m */; };
 		0F7491BB20849F2100FE7AA2 /* GenerateDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491BA20849F2100FE7AA2 /* GenerateDatas.m */; };
+		0FB4C0D220BB933000146768 /* ImageIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4C0D020BB933000146768 /* ImageIOController.m */; };
+		0FB4C0D320BB933000146768 /* ImageIOController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4C0D120BB933000146768 /* ImageIOController.xib */; };
+		0FB4C0D720BBA1D100146768 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4C0D620BBA1D100146768 /* images */; };
 		0FF79C23208596770039ED50 /* CTMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF79C21208596770039ED50 /* CTMainController.m */; };
 		0FF79C24208596770039ED50 /* CTMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF79C22208596770039ED50 /* CTMainController.xib */; };
 		0FF79C27208596A10039ED50 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF79C26208596A10039ED50 /* CTDisplayView.m */; };
@@ -123,6 +127,8 @@
 		0F184C87200CA1B800CD19FC /* RacTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RacTestViewController.xib; sourceTree = "<group>"; };
 		0F2537711FE37D3F0022506D /* PYTempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTempViewController.h; sourceTree = "<group>"; };
 		0F2537721FE37D3F0022506D /* PYTempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTempViewController.m; sourceTree = "<group>"; };
+		0F30569620AA883B00001CDE /* MapDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapDemoController.h; sourceTree = "<group>"; };
+		0F30569720AA883B00001CDE /* MapDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapDemoController.m; sourceTree = "<group>"; };
 		0F516B4D209BFEE100A0E6DA /* RunloopMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopMainController.h; sourceTree = "<group>"; };
 		0F516B4E209BFEE100A0E6DA /* RunloopMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopMainController.m; sourceTree = "<group>"; };
 		0F53A4331FE3785C00761D6A /* PYSearchDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYSearchDemoController.h; sourceTree = "<group>"; };
@@ -145,6 +151,10 @@
 		0F7491B72084822E00FE7AA2 /* OptTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptTableViewCell.m; sourceTree = "<group>"; };
 		0F7491B920849F2100FE7AA2 /* GenerateDatas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateDatas.h; sourceTree = "<group>"; };
 		0F7491BA20849F2100FE7AA2 /* GenerateDatas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateDatas.m; sourceTree = "<group>"; };
+		0FB4C0CF20BB933000146768 /* ImageIOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageIOController.h; sourceTree = "<group>"; };
+		0FB4C0D020BB933000146768 /* ImageIOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageIOController.m; sourceTree = "<group>"; };
+		0FB4C0D120BB933000146768 /* ImageIOController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageIOController.xib; sourceTree = "<group>"; };
+		0FB4C0D620BBA1D100146768 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		0FF79C20208596770039ED50 /* CTMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMainController.h; sourceTree = "<group>"; };
 		0FF79C21208596770039ED50 /* CTMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMainController.m; sourceTree = "<group>"; };
 		0FF79C22208596770039ED50 /* CTMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CTMainController.xib; sourceTree = "<group>"; };
@@ -339,6 +349,15 @@
 			path = UICollectionView;
 			sourceTree = "<group>";
 		};
+		0F30569520AA834500001CDE /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0F30569620AA883B00001CDE /* MapDemoController.h */,
+				0F30569720AA883B00001CDE /* MapDemoController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		0F516B4C209BFEA400A0E6DA /* Runloop */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,6 +401,17 @@
 				0F7491A5208475DB00FE7AA2 /* t_repost@2x.png */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FB4C0CE20BB92E200146768 /* ImageIO */ = {
+			isa = PBXGroup;
+			children = (
+				0FB4C0D620BBA1D100146768 /* images */,
+				0FB4C0CF20BB933000146768 /* ImageIOController.h */,
+				0FB4C0D020BB933000146768 /* ImageIOController.m */,
+				0FB4C0D120BB933000146768 /* ImageIOController.xib */,
+			);
+			path = ImageIO;
 			sourceTree = "<group>";
 		};
 		0FF79C1F208596210039ED50 /* CoreTextDemo */ = {
@@ -812,6 +842,8 @@
 		A79727BA1DC3486C00058B6D /* ios-UITest */ = {
 			isa = PBXGroup;
 			children = (
+				0FB4C0CE20BB92E200146768 /* ImageIO */,
+				0F30569520AA834500001CDE /* Map */,
 				0F516B4C209BFEA400A0E6DA /* Runloop */,
 				0FF79C1F208596210039ED50 /* CoreTextDemo */,
 				0F74919D2084750200FE7AA2 /* TableViewOptController */,
@@ -958,7 +990,6 @@
 				A79727641DC33A5100058B6D /* Sources */,
 				A79727651DC33A5100058B6D /* Frameworks */,
 				A79727661DC33A5100058B6D /* Resources */,
-				8C2BB2787D51F1D1C12EBDB4 /* [CP] Embed Pods Frameworks */,
 				037FD50113DA23D7FB8FC87D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1009,10 +1040,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB4C0D720BBA1D100146768 /* images in Resources */,
 				9F15EFDC1DDDE857002A734F /* withOptProp.json in Resources */,
 				9F15EFD71DDDE857002A734F /* nestedDataWithTypeMismatchOnImagesObject.json in Resources */,
 				A79727D81DC3486C00058B6D /* Info.plist in Resources */,
 				0F7491A6208475DB00FE7AA2 /* corner_circle@2x.png in Resources */,
+				0FB4C0D320BB933000146768 /* ImageIOController.xib in Resources */,
 				9F15EFD11DDDE857002A734F /* github-iphone.json in Resources */,
 				9F15EFD81DDDE857002A734F /* post.json in Resources */,
 				9F15EFDB1DDDE857002A734F /* specialPropertyName.json in Resources */,
@@ -1050,12 +1083,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ios-UITest/Pods-ios-UITest-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/PYSearch/PYSearch/PYSearch.bundle",
 				"${PODS_ROOT}/ZYQAssetPickerController/ZYQAssetPickerController/ZYQAssetPicker.Bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYSearch.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZYQAssetPicker.Bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1080,21 +1116,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8C2BB2787D51F1D1C12EBDB4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-UITest/Pods-ios-UITest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1109,6 +1130,7 @@
 				A78EA0011DC3B0FB00DEB6E3 /* UTGestureViewController.m in Sources */,
 				9FF8103C1EAF51DE005B38B5 /* Concurrent3ViewController.m in Sources */,
 				0F516B4F209BFEE100A0E6DA /* RunloopMainController.m in Sources */,
+				0F30569820AA883B00001CDE /* MapDemoController.m in Sources */,
 				A79727DE1DC34DE000058B6D /* UTTouchEventViewController.m in Sources */,
 				9F6480661EB1957800CE364E /* MantleDemoViewController.m in Sources */,
 				A78EA0131DC65B1300DEB6E3 /* UTTouchEventImageView.m in Sources */,
@@ -1146,6 +1168,7 @@
 				A77266311DC72EEB0026AA56 /* UTSectionHeadView.m in Sources */,
 				9F8E278B1DF6EC1B00AE01F0 /* VWWWaterView.m in Sources */,
 				9F80EDDA1DEC4751004272FF /* CITestViewController.m in Sources */,
+				0FB4C0D220BB933000146768 /* ImageIOController.m in Sources */,
 				9F6480751EB1D2EC00CE364E /* MantleViewController.m in Sources */,
 				9F36ABD71DE58AFA00D15FE8 /* GCDMainViewController.m in Sources */,
 				9F3E027B1EA8908B00E0767C /* CameraViewController.m in Sources */,
@@ -1300,8 +1323,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/longyang/Documents/IOS-UITest/ios-UITest/ios-UITest/ios-UITest-Prefix.pch";
 				INFOPLIST_FILE = "ios-UITest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.carloan.carloan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yl.uitest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1315,8 +1339,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/longyang/Documents/IOS-UITest/ios-UITest/ios-UITest/ios-UITest-Prefix.pch";
 				INFOPLIST_FILE = "ios-UITest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.carloan.carloan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yl.uitest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "FitTabbarController.h"
 #import <Contacts/Contacts.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @interface AppDelegate ()
 
@@ -19,7 +20,7 @@
 //程序启动完成时调用
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	
-
+    [AMapServices sharedServices].apiKey = @"57c1a0f2366c39d04d7ad500d177ba87";
 	
     //1.系统创建window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

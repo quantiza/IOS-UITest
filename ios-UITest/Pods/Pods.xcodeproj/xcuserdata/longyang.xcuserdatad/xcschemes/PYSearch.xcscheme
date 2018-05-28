@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6CFE2C726E32EA93BDC63694D6E10A30'
-               BlueprintName = 'PYSearch'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPYSearch.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FE847E6367F285D5C2C8C5AD45BEB67A"
+               BlueprintName = "PYSearch"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPYSearch.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

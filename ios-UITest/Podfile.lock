@@ -14,6 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - AMap3DMap (5.6.0):
+    - AMapFoundation (~> 1.4)
+  - AMapFoundation (1.4.2)
+  - AMapSearch (5.5.0):
+    - AMapFoundation (~> 1.4)
   - FreeStreamer (3.7.2):
     - Reachability (~> 3.0)
   - JSONModel (1.7.0)
@@ -34,6 +39,8 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AMap3DMap
+  - AMapSearch
   - FreeStreamer
   - JSONModel
   - Mantle
@@ -45,8 +52,29 @@ DEPENDENCIES:
   - UICountingLabel
   - ZYQAssetPickerController (~> 1.0.0)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapSearch
+    - FreeStreamer
+    - JSONModel
+    - Mantle
+    - MBProgressHUD
+    - PNChart
+    - PYSearch
+    - Reachability
+    - ReactiveObjC
+    - SDWebImage
+    - UICountingLabel
+    - ZYQAssetPickerController
+
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap3DMap: 2ac4f9ad7f2f8b015013d8d282c55882bcd68dc9
+  AMapFoundation: 6c0471c9a6a0ad17dad46e3d800ad56ca170f82a
+  AMapSearch: dc9958acfb61b58dcbce79736bf14a39dde7506f
   FreeStreamer: 98f42f926bed70e3f8873930bc530aae83082d9f
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
@@ -59,6 +87,6 @@ SPEC CHECKSUMS:
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
   ZYQAssetPickerController: e5cf51ee6c05fa06746830026c247cb9f6699e84
 
-PODFILE CHECKSUM: 1dde4f74b676a2aee821fef1eed736dc23737af5
+PODFILE CHECKSUM: ce645d5dc4990786d48661306a1fb57c39eb83b0
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.2

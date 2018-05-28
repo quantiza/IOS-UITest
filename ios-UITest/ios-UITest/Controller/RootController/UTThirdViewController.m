@@ -16,6 +16,8 @@
 #import "TableViewOptController.h"
 #import "CTMainController.h"
 #import "RunloopMainController.h"
+#import "MapDemoController.h"
+#import "ImageIOController.h"
 
 @interface UTThirdViewController() <UITableViewDelegate, UITableViewDataSource> {
 	UITableView *table;
@@ -47,8 +49,8 @@
 	NSString *seven = @"CTMainController";
 	NSString *eight = @"Design";
 	NSString *nine = @"Runloop";
-	NSString *ten = @"Test";
-	NSString *aa = @"Test";
+	NSString *ten = @"MapDemo";
+	NSString *aa = @"ImageIODemo";
 	NSString *bb = @"Test";
 	NSString *cc = @"Test";
 	NSString *dd = @"Test";
@@ -124,25 +126,21 @@
         [self.navigationController pushViewController:vc animated:YES];
     }
 
-    if (indexPath.section==0 && indexPath.row==7) {
+    if (indexPath.section==0 && indexPath.row==8) {
         RunloopMainController *vc = [[RunloopMainController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
+
+    if (indexPath.section==0 && indexPath.row==9) {
+        MapDemoController *vc = [[MapDemoController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+
+    if (indexPath.section==0 && indexPath.row==10) {
+        ImageIOController *vc = [[ImageIOController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 //
-//	if (indexPath.section==0 && indexPath.row==8) {
-//		CITestViewController *CITestCtrl = [[CITestViewController alloc] init];
-//		CITestCtrl.navigationItem.title = @"Core Image Test";
-//		CITestCtrl.view.backgroundColor = WHITE_COLOR;
-//		[self.navigationController pushViewController:CITestCtrl animated:YES];
-//	}
-//	
-//	if (indexPath.section==0 && indexPath.row==9) {
-//		AnimationViewController *animationVC = [[AnimationViewController alloc] init];
-//		animationVC.navigationItem.title = @"Animation Test";
-//		animationVC.view.backgroundColor = WHITE_COLOR;
-//		[self.navigationController pushViewController:animationVC animated:YES];
-//	}
-//	
 //	if (indexPath.section==0 && indexPath.row==10) {
 //		UTSearchController *searchVC = [[UTSearchController alloc] init];
 //		searchVC.navigationItem.title = @"SearchController Test";
