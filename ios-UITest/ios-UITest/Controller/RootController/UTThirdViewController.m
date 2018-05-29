@@ -18,6 +18,8 @@
 #import "RunloopMainController.h"
 #import "MapDemoController.h"
 #import "ImageIOController.h"
+#import "URLSessionController.h"
+#import "PhotoMasterController.h"
 
 @interface UTThirdViewController() <UITableViewDelegate, UITableViewDataSource> {
 	UITableView *table;
@@ -51,8 +53,8 @@
 	NSString *nine = @"Runloop";
 	NSString *ten = @"MapDemo";
 	NSString *aa = @"ImageIODemo";
-	NSString *bb = @"Test";
-	NSString *cc = @"Test";
+	NSString *bb = @"URLSessionDemo";
+	NSString *cc = @"Photos";
 	NSString *dd = @"Test";
 	NSString *ee = @"Test";
 	NSString *ff = @"Test";
@@ -140,19 +142,17 @@
         ImageIOController *vc = [[ImageIOController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
-//
-//	if (indexPath.section==0 && indexPath.row==10) {
-//		UTSearchController *searchVC = [[UTSearchController alloc] init];
-//		searchVC.navigationItem.title = @"SearchController Test";
-//		searchVC.view.backgroundColor = WHITE_COLOR;
-//		[self.navigationController pushViewController:searchVC animated:YES];
-//	}
-//	
-//	if (indexPath.section==0 && indexPath.row==11) {
-//		UTAVController *avVC = [[UTAVController alloc] init];
-//		avVC.navigationItem.title = @"AVFoundation Test";
-//		avVC.view.backgroundColor = WHITE_COLOR;
-//		[self.navigationController pushViewController:avVC animated:YES];
-	}
 
+
+    if (indexPath.section==0 && indexPath.row==11) {
+        URLSessionController *vc = [[URLSessionController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+	}
+    
+    if (indexPath.section==0 && indexPath.row==12) {
+        PhotoMasterController *vc = [[PhotoMasterController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
+}
 @end

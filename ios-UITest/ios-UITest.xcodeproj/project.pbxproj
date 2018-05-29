@@ -24,9 +24,13 @@
 		0F7491B22084767100FE7AA2 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491AD2084767100FE7AA2 /* NSString+Additions.m */; };
 		0F7491B82084822E00FE7AA2 /* OptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491B72084822E00FE7AA2 /* OptTableViewCell.m */; };
 		0F7491BB20849F2100FE7AA2 /* GenerateDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491BA20849F2100FE7AA2 /* GenerateDatas.m */; };
+		0FAAB23520BCFCF300D0D839 /* PhotoMasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAAB23320BCFCF300D0D839 /* PhotoMasterController.m */; };
+		0FAAB23620BCFCF300D0D839 /* PhotoMasterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FAAB23420BCFCF300D0D839 /* PhotoMasterController.xib */; };
 		0FB4C0D220BB933000146768 /* ImageIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4C0D020BB933000146768 /* ImageIOController.m */; };
 		0FB4C0D320BB933000146768 /* ImageIOController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4C0D120BB933000146768 /* ImageIOController.xib */; };
 		0FB4C0D720BBA1D100146768 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4C0D620BBA1D100146768 /* images */; };
+		0FB4C0DC20BBE99700146768 /* URLSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4C0DA20BBE99700146768 /* URLSessionController.m */; };
+		0FB4C0DD20BBE99700146768 /* URLSessionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4C0DB20BBE99700146768 /* URLSessionController.xib */; };
 		0FF79C23208596770039ED50 /* CTMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF79C21208596770039ED50 /* CTMainController.m */; };
 		0FF79C24208596770039ED50 /* CTMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF79C22208596770039ED50 /* CTMainController.xib */; };
 		0FF79C27208596A10039ED50 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF79C26208596A10039ED50 /* CTDisplayView.m */; };
@@ -151,10 +155,16 @@
 		0F7491B72084822E00FE7AA2 /* OptTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptTableViewCell.m; sourceTree = "<group>"; };
 		0F7491B920849F2100FE7AA2 /* GenerateDatas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateDatas.h; sourceTree = "<group>"; };
 		0F7491BA20849F2100FE7AA2 /* GenerateDatas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateDatas.m; sourceTree = "<group>"; };
+		0FAAB23220BCFCF300D0D839 /* PhotoMasterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoMasterController.h; sourceTree = "<group>"; };
+		0FAAB23320BCFCF300D0D839 /* PhotoMasterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMasterController.m; sourceTree = "<group>"; };
+		0FAAB23420BCFCF300D0D839 /* PhotoMasterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoMasterController.xib; sourceTree = "<group>"; };
 		0FB4C0CF20BB933000146768 /* ImageIOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageIOController.h; sourceTree = "<group>"; };
 		0FB4C0D020BB933000146768 /* ImageIOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageIOController.m; sourceTree = "<group>"; };
 		0FB4C0D120BB933000146768 /* ImageIOController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageIOController.xib; sourceTree = "<group>"; };
 		0FB4C0D620BBA1D100146768 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		0FB4C0D920BBE99700146768 /* URLSessionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionController.h; sourceTree = "<group>"; };
+		0FB4C0DA20BBE99700146768 /* URLSessionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLSessionController.m; sourceTree = "<group>"; };
+		0FB4C0DB20BBE99700146768 /* URLSessionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = URLSessionController.xib; sourceTree = "<group>"; };
 		0FF79C20208596770039ED50 /* CTMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMainController.h; sourceTree = "<group>"; };
 		0FF79C21208596770039ED50 /* CTMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMainController.m; sourceTree = "<group>"; };
 		0FF79C22208596770039ED50 /* CTMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CTMainController.xib; sourceTree = "<group>"; };
@@ -403,6 +413,16 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0FAAB23120BCFC1900D0D839 /* SamplePhotos */ = {
+			isa = PBXGroup;
+			children = (
+				0FAAB23220BCFCF300D0D839 /* PhotoMasterController.h */,
+				0FAAB23320BCFCF300D0D839 /* PhotoMasterController.m */,
+				0FAAB23420BCFCF300D0D839 /* PhotoMasterController.xib */,
+			);
+			path = SamplePhotos;
+			sourceTree = "<group>";
+		};
 		0FB4C0CE20BB92E200146768 /* ImageIO */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,6 +432,16 @@
 				0FB4C0D120BB933000146768 /* ImageIOController.xib */,
 			);
 			path = ImageIO;
+			sourceTree = "<group>";
+		};
+		0FB4C0D820BBE95E00146768 /* URLSessionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0FB4C0D920BBE99700146768 /* URLSessionController.h */,
+				0FB4C0DA20BBE99700146768 /* URLSessionController.m */,
+				0FB4C0DB20BBE99700146768 /* URLSessionController.xib */,
+			);
+			path = URLSessionDemo;
 			sourceTree = "<group>";
 		};
 		0FF79C1F208596210039ED50 /* CoreTextDemo */ = {
@@ -842,6 +872,8 @@
 		A79727BA1DC3486C00058B6D /* ios-UITest */ = {
 			isa = PBXGroup;
 			children = (
+				0FAAB23120BCFC1900D0D839 /* SamplePhotos */,
+				0FB4C0D820BBE95E00146768 /* URLSessionDemo */,
 				0FB4C0CE20BB92E200146768 /* ImageIO */,
 				0F30569520AA834500001CDE /* Map */,
 				0F516B4C209BFEA400A0E6DA /* Runloop */,
@@ -1052,12 +1084,14 @@
 				0F7491A8208475DB00FE7AA2 /* t_comments@2x.png in Resources */,
 				9F15EFD51DDDE857002A734F /* nestedDataWithDictionaryError.json in Resources */,
 				9F3E028F1EA9DAEA00E0767C /* PlayStringViewController.xib in Resources */,
+				0FAAB23620BCFCF300D0D839 /* PhotoMasterController.xib in Resources */,
 				9F15EFCF1DDDE857002A734F /* colors.json in Resources */,
 				0F7491A9208475DB00FE7AA2 /* t_repost@2x.png in Resources */,
 				9F7DBA1F1E272AB600A938D8 /* music-wqs.mp3 in Resources */,
 				0F184C89200CA1B800CD19FC /* RacTestViewController.xib in Resources */,
 				9F15EFDA1DDDE857002A734F /* primitivesWithErrors.json in Resources */,
 				9F15EFD41DDDE857002A734F /* nestedDataWithArrayError.json in Resources */,
+				0FB4C0DD20BBE99700146768 /* URLSessionController.xib in Resources */,
 				A79727D41DC3486C00058B6D /* Main.storyboard in Resources */,
 				A79727D21DC3486C00058B6D /* Assets.xcassets in Resources */,
 				9F15EFD61DDDE857002A734F /* nestedDataWithTypeMismatchOnImages.json in Resources */,
@@ -1191,8 +1225,10 @@
 				9F6480721EB1C16E00CE364E /* GHUser.m in Sources */,
 				A79727D71DC3486C00058B6D /* FitConsts.m in Sources */,
 				9FAF6E751DC9B1DA00A206F5 /* UTSegmentedController.m in Sources */,
+				0FAAB23520BCFCF300D0D839 /* PhotoMasterController.m in Sources */,
 				9F2E29841DDC623400A90011 /* PickImageViewController.m in Sources */,
 				9F64806F1EB1BFE900CE364E /* GHIssue.m in Sources */,
+				0FB4C0DC20BBE99700146768 /* URLSessionController.m in Sources */,
 				0F7491B22084767100FE7AA2 /* NSString+Additions.m in Sources */,
 				0FF79C23208596770039ED50 /* CTMainController.m in Sources */,
 				9FAF6E7D1DC9D89A00A206F5 /* UTSwitchController.m in Sources */,
