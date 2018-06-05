@@ -20,6 +20,7 @@
 #import "ImageIOController.h"
 #import "URLSessionController.h"
 #import "PhotoMasterController.h"
+#import "AFNDemoController.h"
 
 @interface UTThirdViewController() <UITableViewDelegate, UITableViewDataSource> {
 	UITableView *table;
@@ -55,7 +56,7 @@
 	NSString *aa = @"ImageIODemo";
 	NSString *bb = @"URLSessionDemo";
 	NSString *cc = @"Photos";
-	NSString *dd = @"Test";
+	NSString *dd = @"AFNDemo";
 	NSString *ee = @"Test";
 	NSString *ff = @"Test";
 	NSString *gg = @"Test";
@@ -151,6 +152,12 @@
     
     if (indexPath.section==0 && indexPath.row==12) {
         PhotoMasterController *vc = [[PhotoMasterController alloc] init];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
+    if (indexPath.section==0 && indexPath.row==13) {
+        AFNDemoController *vc = [[AFNDemoController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         
     }

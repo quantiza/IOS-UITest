@@ -24,6 +24,10 @@
 		0F7491B22084767100FE7AA2 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491AD2084767100FE7AA2 /* NSString+Additions.m */; };
 		0F7491B82084822E00FE7AA2 /* OptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491B72084822E00FE7AA2 /* OptTableViewCell.m */; };
 		0F7491BB20849F2100FE7AA2 /* GenerateDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7491BA20849F2100FE7AA2 /* GenerateDatas.m */; };
+		0F7AD46820C6836500BAFFC5 /* GridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AD46620C6836500BAFFC5 /* GridViewCell.m */; };
+		0F7AD46920C6836500BAFFC5 /* GridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7AD46720C6836500BAFFC5 /* GridViewCell.xib */; };
+		0F9BBE2520BFA1450068B200 /* AFNDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BBE2320BFA1450068B200 /* AFNDemoController.m */; };
+		0F9BBE2620BFA1450068B200 /* AFNDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F9BBE2420BFA1450068B200 /* AFNDemoController.xib */; };
 		0FAAB23520BCFCF300D0D839 /* PhotoMasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAAB23320BCFCF300D0D839 /* PhotoMasterController.m */; };
 		0FAAB23620BCFCF300D0D839 /* PhotoMasterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FAAB23420BCFCF300D0D839 /* PhotoMasterController.xib */; };
 		0FB4C0D220BB933000146768 /* ImageIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4C0D020BB933000146768 /* ImageIOController.m */; };
@@ -31,6 +35,7 @@
 		0FB4C0D720BBA1D100146768 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4C0D620BBA1D100146768 /* images */; };
 		0FB4C0DC20BBE99700146768 /* URLSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4C0DA20BBE99700146768 /* URLSessionController.m */; };
 		0FB4C0DD20BBE99700146768 /* URLSessionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB4C0DB20BBE99700146768 /* URLSessionController.xib */; };
+		0FDA1E1520BE7F380069A19C /* AssetGridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA1E1420BE7F380069A19C /* AssetGridController.m */; };
 		0FF79C23208596770039ED50 /* CTMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF79C21208596770039ED50 /* CTMainController.m */; };
 		0FF79C24208596770039ED50 /* CTMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF79C22208596770039ED50 /* CTMainController.xib */; };
 		0FF79C27208596A10039ED50 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF79C26208596A10039ED50 /* CTDisplayView.m */; };
@@ -155,6 +160,12 @@
 		0F7491B72084822E00FE7AA2 /* OptTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptTableViewCell.m; sourceTree = "<group>"; };
 		0F7491B920849F2100FE7AA2 /* GenerateDatas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateDatas.h; sourceTree = "<group>"; };
 		0F7491BA20849F2100FE7AA2 /* GenerateDatas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateDatas.m; sourceTree = "<group>"; };
+		0F7AD46520C6836500BAFFC5 /* GridViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridViewCell.h; sourceTree = "<group>"; };
+		0F7AD46620C6836500BAFFC5 /* GridViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewCell.m; sourceTree = "<group>"; };
+		0F7AD46720C6836500BAFFC5 /* GridViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridViewCell.xib; sourceTree = "<group>"; };
+		0F9BBE2220BFA1450068B200 /* AFNDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNDemoController.h; sourceTree = "<group>"; };
+		0F9BBE2320BFA1450068B200 /* AFNDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNDemoController.m; sourceTree = "<group>"; };
+		0F9BBE2420BFA1450068B200 /* AFNDemoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AFNDemoController.xib; sourceTree = "<group>"; };
 		0FAAB23220BCFCF300D0D839 /* PhotoMasterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoMasterController.h; sourceTree = "<group>"; };
 		0FAAB23320BCFCF300D0D839 /* PhotoMasterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMasterController.m; sourceTree = "<group>"; };
 		0FAAB23420BCFCF300D0D839 /* PhotoMasterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoMasterController.xib; sourceTree = "<group>"; };
@@ -165,6 +176,8 @@
 		0FB4C0D920BBE99700146768 /* URLSessionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionController.h; sourceTree = "<group>"; };
 		0FB4C0DA20BBE99700146768 /* URLSessionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLSessionController.m; sourceTree = "<group>"; };
 		0FB4C0DB20BBE99700146768 /* URLSessionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = URLSessionController.xib; sourceTree = "<group>"; };
+		0FDA1E1320BE7F380069A19C /* AssetGridController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetGridController.h; sourceTree = "<group>"; };
+		0FDA1E1420BE7F380069A19C /* AssetGridController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetGridController.m; sourceTree = "<group>"; };
 		0FF79C20208596770039ED50 /* CTMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMainController.h; sourceTree = "<group>"; };
 		0FF79C21208596770039ED50 /* CTMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMainController.m; sourceTree = "<group>"; };
 		0FF79C22208596770039ED50 /* CTMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CTMainController.xib; sourceTree = "<group>"; };
@@ -352,13 +365,6 @@
 			path = RACLearning;
 			sourceTree = "<group>";
 		};
-		0F2F5DCF1FFE30570073FEBE /* UICollectionView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UICollectionView;
-			sourceTree = "<group>";
-		};
 		0F30569520AA834500001CDE /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,12 +419,27 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0F9BBE2120BFA0E70068B200 /* AFNDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0F9BBE2220BFA1450068B200 /* AFNDemoController.h */,
+				0F9BBE2320BFA1450068B200 /* AFNDemoController.m */,
+				0F9BBE2420BFA1450068B200 /* AFNDemoController.xib */,
+			);
+			path = AFNDemo;
+			sourceTree = "<group>";
+		};
 		0FAAB23120BCFC1900D0D839 /* SamplePhotos */ = {
 			isa = PBXGroup;
 			children = (
 				0FAAB23220BCFCF300D0D839 /* PhotoMasterController.h */,
 				0FAAB23320BCFCF300D0D839 /* PhotoMasterController.m */,
+				0FDA1E1320BE7F380069A19C /* AssetGridController.h */,
+				0FDA1E1420BE7F380069A19C /* AssetGridController.m */,
 				0FAAB23420BCFCF300D0D839 /* PhotoMasterController.xib */,
+				0F7AD46520C6836500BAFFC5 /* GridViewCell.h */,
+				0F7AD46620C6836500BAFFC5 /* GridViewCell.m */,
+				0F7AD46720C6836500BAFFC5 /* GridViewCell.xib */,
 			);
 			path = SamplePhotos;
 			sourceTree = "<group>";
@@ -872,6 +893,7 @@
 		A79727BA1DC3486C00058B6D /* ios-UITest */ = {
 			isa = PBXGroup;
 			children = (
+				0F9BBE2120BFA0E70068B200 /* AFNDemo */,
 				0FAAB23120BCFC1900D0D839 /* SamplePhotos */,
 				0FB4C0D820BBE95E00146768 /* URLSessionDemo */,
 				0FB4C0CE20BB92E200146768 /* ImageIO */,
@@ -880,7 +902,6 @@
 				0FF79C1F208596210039ED50 /* CoreTextDemo */,
 				0F74919D2084750200FE7AA2 /* TableViewOptController */,
 				0F184C84200CA17C00CD19FC /* RACLearning */,
-				0F2F5DCF1FFE30570073FEBE /* UICollectionView */,
 				A79727C21DC3486C00058B6D /* Controller */,
 				A79727CE1DC3486C00058B6D /* View */,
 				A79727CD1DC3486C00058B6D /* Model */,
@@ -1080,6 +1101,7 @@
 				0FB4C0D320BB933000146768 /* ImageIOController.xib in Resources */,
 				9F15EFD11DDDE857002A734F /* github-iphone.json in Resources */,
 				9F15EFD81DDDE857002A734F /* post.json in Resources */,
+				0F7AD46920C6836500BAFFC5 /* GridViewCell.xib in Resources */,
 				9F15EFDB1DDDE857002A734F /* specialPropertyName.json in Resources */,
 				0F7491A8208475DB00FE7AA2 /* t_comments@2x.png in Resources */,
 				9F15EFD51DDDE857002A734F /* nestedDataWithDictionaryError.json in Resources */,
@@ -1092,6 +1114,7 @@
 				9F15EFDA1DDDE857002A734F /* primitivesWithErrors.json in Resources */,
 				9F15EFD41DDDE857002A734F /* nestedDataWithArrayError.json in Resources */,
 				0FB4C0DD20BBE99700146768 /* URLSessionController.xib in Resources */,
+				0F9BBE2620BFA1450068B200 /* AFNDemoController.xib in Resources */,
 				A79727D41DC3486C00058B6D /* Main.storyboard in Resources */,
 				A79727D21DC3486C00058B6D /* Assets.xcassets in Resources */,
 				9F15EFD61DDDE857002A734F /* nestedDataWithTypeMismatchOnImages.json in Resources */,
@@ -1174,6 +1197,7 @@
 				9FAF6E711DC97DBF00A206F5 /* UTPageController.m in Sources */,
 				9F60804A1DD1DA6E00B567D2 /* UTOptionView.m in Sources */,
 				9F64806C1EB1B77900CE364E /* NoMantleViewController.m in Sources */,
+				0FDA1E1520BE7F380069A19C /* AssetGridController.m in Sources */,
 				9F7DFEB61E263CAB00140046 /* UTAVController.m in Sources */,
 				9FF1A0AC1EADE8B60078AF92 /* Concurrent1ViewController.m in Sources */,
 				A78EA0191DC6664100DEB6E3 /* UTBasicGraphicsViewController.m in Sources */,
@@ -1204,9 +1228,11 @@
 				9F80EDDA1DEC4751004272FF /* CITestViewController.m in Sources */,
 				0FB4C0D220BB933000146768 /* ImageIOController.m in Sources */,
 				9F6480751EB1D2EC00CE364E /* MantleViewController.m in Sources */,
+				0F9BBE2520BFA1450068B200 /* AFNDemoController.m in Sources */,
 				9F36ABD71DE58AFA00D15FE8 /* GCDMainViewController.m in Sources */,
 				9F3E027B1EA8908B00E0767C /* CameraViewController.m in Sources */,
 				9FE139421DC8E65E005908F9 /* UTDatePickerTestController.m in Sources */,
+				0F7AD46820C6836500BAFFC5 /* GridViewCell.m in Sources */,
 				A78EA01C1DC66CE600DEB6E3 /* UTBasicGraphicsView.m in Sources */,
 				9FAF6E791DC9BE6A00A206F5 /* UTSliderController.m in Sources */,
 				9F15EFBE1DDDC3A7002A734F /* JsonModelTestViewController.m in Sources */,

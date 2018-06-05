@@ -8,6 +8,7 @@
 
 #import "PhotoMasterController.h"
 #import <Photos/Photos.h>
+#import "AssetGridController.h"
 
 @interface PhotoMasterController () <UITableViewDelegate, UITableViewDataSource, PHPhotoLibraryChangeObserver>
 {
@@ -27,7 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Photo Demo";
-    sectionLocalizedTitles = @[@"", NSLocalizedString(@"Smart Albums", comment: @""), NSLocalizedString(@"Albums", comment: @"")];
+    sectionLocalizedTitles = @[@"", @"Smart Albums", @"Albums"];
     [self createUI];
     
     PHFetchOptions *allPhotosOptions = [[PHFetchOptions alloc] init];
@@ -50,8 +51,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    sectionEnum = section;
-    switch (sectionEnum) {
+    switch (section) {
         case SectionAllPhotos:
             return 1;
         case SectionSmartAlbums:
@@ -82,6 +82,31 @@
             break;
     }
     return cell;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return sectionLocalizedTitles[section];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    AssetGridController *vc = [[AssetGridController alloc] init];
+    vc.title = cell.textLabel.text;
+    
+    PHCollection *collection = [[PHCollection alloc] init];
+    if (indexPath.section == 0) {
+        vc.fetchResult = allPhotos;
+    }
+    else {
+        if (indexPath.section == 1) {
+            collection = [smartAlbums objectAtIndex:indexPath.row];
+        } else {
+            collection = [userCollections objectAtIndex:indexPath.row];
+        }
+        vc.fetchResult = [PHAsset fetchAssetsInAssetCollection:(PHAssetCollection *)collection options:nil];
+    }
+    
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)dealloc {
